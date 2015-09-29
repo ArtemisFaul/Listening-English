@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="300.0" minWidth="-Infinity" prefWidth="835.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.controller.VarController">
+   <center>
+      <HBox>
+         <children>
+            <VBox maxWidth="1.7976931348623157E308" spacing="10.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <HBox spacing="8.0">
+                     <children>
+                        <CheckBox mnemonicParsing="false">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </CheckBox>
+                        <Label lineSpacing="2.0" maxWidth="1.7976931348623157E308" minHeight="-Infinity" text="1. The curriculum in UK schools will include Mandarin as well as French and German." wrapText="true">
+                           <font>
+                              <Font size="14.6" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox spacing="8.0">
+                     <children>
+                        <CheckBox mnemonicParsing="false" />
+                        <Label alignment="TOP_LEFT" lineSpacing="2.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" text="2. Britain’s Prime Minister is planning to increase the number of students studying Chinese in British schools in the next three years. " wrapText="true">
+                           <font>
+                              <Font size="14.6" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox spacing="8.0">
+                     <children>
+                        <CheckBox mnemonicParsing="false" />
+                        <Label alignment="TOP_LEFT" lineSpacing="2.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" text="3. David Cameron is going to provide financial support to schools where students start learning Mandarin." wrapText="true">
+                           <font>
+                              <Font size="14.6" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox spacing="8.0">
+                     <children>
+                        <CheckBox mnemonicParsing="false" />
+                        <Label alignment="TOP_LEFT" lineSpacing="2.0" maxWidth="1.7976931348623157E308" minHeight="-Infinity" text="4. The Prime Minister believes that educational ties will help China to enter the British market." wrapText="true">
+                           <font>
+                              <Font size="14.6" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox spacing="8.0">
+                     <children>
+                        <CheckBox mnemonicParsing="false" />
+                        <Label alignment="TOP_LEFT" lineSpacing="2.0" maxWidth="1.7976931348623157E308" minHeight="-Infinity" text="5. David Cameron is sure that the UK has the largest economy in the world." wrapText="true">
+                           <font>
+                              <Font size="14.6" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox spacing="8.0">
+                     <children>
+                        <CheckBox mnemonicParsing="false" />
+                        <Label alignment="TOP_LEFT" lineSpacing="2.0" maxWidth="1.7976931348623157E308" minHeight="-Infinity" text="6. The Prime Minister claims that China will become the world’s biggest economy." wrapText="true">
+                           <font>
+                              <Font size="14.6" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox spacing="8.0">
+                     <children>
+                        <CheckBox mnemonicParsing="false" />
+                        <Label alignment="TOP_LEFT" lineSpacing="2.0" maxWidth="1.7976931348623157E308" minHeight="-Infinity" text="7. David Cameron emphasizes the importance of learning French and German." wrapText="true">
+                           <font>
+                              <Font size="14.6" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox spacing="8.0">
+                     <children>
+                        <CheckBox mnemonicParsing="false" />
+                        <Label alignment="TOP_LEFT" lineSpacing="2.0" maxWidth="1.7976931348623157E308" minHeight="-Infinity" text="8. The British Council and the Chinese office are going to sign an agreement to double the number of Chinese language teachers in UK schools." wrapText="true">
+                           <font>
+                              <Font size="14.6" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox spacing="8.0">
+                     <children>
+                        <CheckBox mnemonicParsing="false" />
+                        <Label alignment="TOP_LEFT" lineSpacing="2.0" maxWidth="1.7976931348623157E308" minHeight="-Infinity" text="9. The British Council considers Mandarin as one of the most important languages for the British to study to improve their job prospects." wrapText="true">
+                           <font>
+                              <Font size="14.6" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+               <HBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" />
+               </HBox.margin>
+            </VBox>
+         </children>
+      </HBox>
+   </center>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+   <top>
+      <HBox maxWidth="1.7976931348623157E308" BorderPane.alignment="CENTER">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="True?" />
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="15.0" />
+         </BorderPane.margin>
+      </HBox>
+   </top>
+</BorderPane>

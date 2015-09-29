@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Charters>
+	<GenEnglish>
+		<id>A1</id>
+		<name>A1 What Do You Use The Internet For?</name>
+		<modelName>Model I (поведенческая модель).</modelName>
+		<modelDescription>Поведенческая модель (главное условие, вызывающее проблему – препятствие на пути к цели; способ решения проблемы – преодоление препятствия, обходной путь).</modelDescription>
+		<intro>You are watching a TV program where the advantages and disadvantages of the Internet are being discussed. Four people	are talking about main reasons for using the Internet but you have to leave the room for a while. Guess what information you have missed.</intro>
+		<exercise>Listen to the speakers again and compare your version with the sounding one.</exercise>
+		<key></key>
+		<varFile>/ru/view/ex/102212.fxml</varFile>
+		<type>Audio</type>
+		<exAttachFile>/ru/res/audio/124967.mp3</exAttachFile>
+		<keyAttachFile>/ru/res/audio/180159.mp3</keyAttachFile>
+		<audioscriptFile>/ru/res/text/109970</audioscriptFile>
+	</GenEnglish>
+	<GenEnglish>
+		<id>A2</id>
+		<name>A2 Are Smartphone Apps Encouraging Young Smokers?</name>
+		<modelName>Model II (гештальт-модель).</modelName>
+		<modelDescription>Гештальт-модель (главное условие, вызывающее проблему – деструктурированность условий и предмета мышления; способ решения проблемы – создание «хорошей структуры», понимание).</modelDescription>
+		<intro>Some students of Information Technology Department have been invited to a seminar devoted to smartphone apps. At the entrance of the conference-hall they are given the program of the seminar.</intro>
+		<exercise>Listen to the speakers and find out if the items of the program are in the correct order. If not, correct their order in the program.</exercise>
+		<key></key>
+		<varFile>/ru/view/ex/113806.fxml</varFile>
+		<type>Audio</type>
+		<exAttachFile>/ru/res/audio/184662.mp3</exAttachFile>
+		<keyAttachFile></keyAttachFile>
+		<audioscriptFile>/ru/res/text/163575</audioscriptFile>
+	</GenEnglish>
+	<GenEnglish>
+		<id>A3</id>
+		<name>A3 Is There A New Language Policy In UK schools?</name>
+		<modelName>Model III (вероятностная модель).</modelName>
+		<modelDescription>Вероятностная модель (главное условие, вызывающее проблему – «препятствие» выражено в альтернативе; способ решения проблемы – выбор адекватного действия).</modelDescription>
+		<intro>One of your groupmates heard some news about a new language policy in UK schools and made notes in order to present the news in class. And now you are listening to the same news on the radio.</intro>
+		<exercise>Listen to the reporter and find out if the statements your groupmate has prepared are true (T) or false (F).</exercise>
+		<key></key>
+		<varFile>/ru/view/ex/140058.fxml</varFile>
+		<type>Audio</type>
+		<exAttachFile>/ru/res/audio/186949.mp3</exAttachFile>
+		<keyAttachFile></keyAttachFile>
+		<audioscriptFile>/ru/res/text/210983</audioscriptFile>
+	</GenEnglish>
+	<GenEnglish>
+		<id>A4</id>
+		<name>A4 Are Tablet Computers Most Wanted Gift This Holiday?</name>
+		<modelName>Model III (вероятностная модель).</modelName>
+		<modelDescription>Вероятностная модель (главное условие, вызывающее проблему – «препятствие» выражено в альтернативе; способ решения проблемы – выбор адекватного действия).</modelDescription>
+		<intro>Speaking about the most popular gifts for Christmas the reporter uses the latest research of the Consumer Electronics Association.</intro>
+		<exercise>Listen to the reporter, choose and circle the correct variant in each statement below.</exercise>
+		<key></key>
+		<varFile>/ru/view/ex/151520.fxml</varFile>
+		<type>Audio</type>
+		<exAttachFile>/ru/res/audio/202971.mp3</exAttachFile>
+		<keyAttachFile></keyAttachFile>
+		<audioscriptFile>/ru/res/text/228304</audioscriptFile>
+	</GenEnglish>
+	<GenEnglish>
+		<id>A5</id>
+		<name>A5 Have You Heard About Bologna Process?</name>
+		<modelName>Model IV (информационная модель).</modelName>
+		<modelDescription>Информационная модель (главное условие, вызывающее проблему – несоответствие наличных и требуемых знаний; способ решения проблемы – достижение новых знаний, необходимой информации).</modelDescription>
+		<intro>As a university correspondent you were invited to a presentation devoted to the Bologna Process. During the presentation you were making notes but later some information was missed.</intro>
+		<exercise>So you should listen to the recording, find out the missed information and fill in the gaps.</exercise>
+		<key></key>
+		<varFile>/ru/view/ex/256624.fxml</varFile>
+		<type>Audio</type>
+		<exAttachFile>/ru/res/audio/226199.mp3</exAttachFile>
+		<keyAttachFile></keyAttachFile>
+		<audioscriptFile>/ru/res/text/270907</audioscriptFile>
+	</GenEnglish>
+	<GenEnglish>
+		<id>A6</id>
+		<name>A6 Will 2013 Be Great For English Students?</name>
+		<modelName>Model IV (информационная модель).</modelName>
+		<modelDescription>Информационная модель (главное условие, вызывающее проблему – несоответствие наличных и требуемых знаний; способ решения проблемы – достижение новых знаний, необходимой информации).</modelDescription>
+		<intro>Expert forecasters are making predictions for the year 2013. They claim that the year 2013 without any doubt will be great for many people. Look through the first part of each prediction and guess the ending, then listen to the speaker and complete the sentences.</intro>
+		<exercise>Two predictions are missed. Add them to the list.</exercise>
+		<key></key>
+		<varFile>/ru/view/ex/328828.fxml</varFile>
+		<type>Audio</type>
+		<exAttachFile>/ru/res/audio/288875.mp3</exAttachFile>
+		<keyAttachFile></keyAttachFile>
+		<audioscriptFile>/ru/res/text/308368</audioscriptFile>
+	</GenEnglish>
+	<GenEnglish>
+		<id>A7</id>
+		<name>A7 How Will The Internet Impact On Schooling Of The Future?</name>
+		<modelName>Model V (модель вариативного типа: вероятностная + гештальт-модель).</modelName>
+		<modelDescription>Модель вариативного типа (главное условие, вызывающее проблему и способ решения проблемы включают характеристики четырех предыдущих моделей).</modelDescription>
+		<intro>While the lecturer is speaking about the Internet impact on schooling of the future the students are making notes about the advantages and disadvantages of the Internet. Only one student has put the information in the correct order.</intro>
+		<exercise>Listen to the speaker and find out and tick the right variant. (A, B оr C)</exercise>
+		<key></key>
+		<varFile>/ru/view/ex/372620.fxml</varFile>
+		<type>Audio</type>
+		<exAttachFile>/ru/res/audio/297021.mp3</exAttachFile>
+		<keyAttachFile></keyAttachFile>
+		<audioscriptFile>/ru/res/text/419703</audioscriptFile>
+	</GenEnglish>
+	<ProEnglish>
+		<id>A8</id>
+		<name>A8 Do You Know How Many UK Engineers Are Women?</name>
+		<modelName>Model I (поведенческая модель).</modelName>
+		<modelDescription>Поведенческая модель (главное условие, вызывающее проблему – препятствие на пути к цели; способ решения проблемы – преодоление препятствия, обходной путь).</modelDescription>
+		<intro>You go on a business trip in your car and listen to the radio. The radio station broadcasts the news referred to gender problems in engineering. Unfortunately during your trip there are areas without radio coverage, so you haven’t heard some information. Guess what information you have missed and fill in the gaps.</intro>
+		<exercise>Listen to the news again and compare your variant with the sounding one. Correct your variant if necessary.</exercise>
+		<key></key>
+		<varFile>/ru/view/ex/374495.fxml</varFile>
+		<type>Audio</type>
+		<exAttachFile>/ru/res/audio/403904.mp3</exAttachFile>
+		<keyAttachFile>/ru/res/audio/427210.mp3</keyAttachFile>
+		<audioscriptFile>/ru/res/text/456231</audioscriptFile>
+	</ProEnglish>
+	<ProEnglish>
+		<id>A9</id>
+		<name>A9 Will Future Smart Devices Extend Our Senses?</name>
+		<modelName>Model I (поведенческая модель).</modelName>
+		<modelDescription>Поведенческая модель (главное условие, вызывающее проблему – препятствие на пути к цели; способ решения проблемы – преодоление препятствия, обходной путь).</modelDescription>
+		<intro>Imagine that we are at a conference devoted to smart devices that will extend human senses. The speaker has prepared a video presentation referred to the issue but unfortunately there is no sound.</intro>
+		<exercise>Watch the video and guess what senses are being discussed in the presentation and try to put them down in the order they are presented in the video.</exercise>
+		<key></key>
+		<varFile>/ru/view/ex/396797.fxml</varFile>
+		<type>Video</type>
+		<exAttachFile>/ru/res/video/457918.mp4</exAttachFile>
+		<keyAttachFile></keyAttachFile>
+		<audioscriptFile>/ru/res/text/515297</audioscriptFile>
+	</ProEnglish>
+	<ProEnglish>
+		<id>A10</id>
+		<name>A10 Do You Do Enough for Your Internet Security?</name>
+		<modelName>Model II (гештальт-модель).</modelName>
+		<modelDescription>Гештальт-модель (главное условие, вызывающее проблему – деструктурированность условий и предмета мышления; способ решения проблемы – создание «хорошей структуры», понимание).</modelDescription>
+		<intro>Robert Schifreen, a former hacker turned a security consultant, and the BBC's Jon Sopel discuss criminals who are aware that we are increasingly "living our lives online" and who are taking advantage of that.</intro>
+		<exercise>Listen to the conversation between these two people and put the information in the order it is mentioned in the dialogue.</exercise>
+		<key></key>
+		<varFile>/ru/view/ex/444823.fxml</varFile>
+		<type>Video</type>
+		<exAttachFile>/ru/res/video/479397.mp4</exAttachFile>
+		<keyAttachFile></keyAttachFile>
+		<audioscriptFile>/ru/res/text/552828</audioscriptFile>
+	</ProEnglish>
+	<ProEnglish>
+		<id>A11</id>
+		<name>A11 Could Navigation App Help Predict Traffic Conditions?</name>
+		<modelName>Model III (вероятностная модель).</modelName>
+		<modelDescription>Вероятностная модель (главное условие, вызывающее проблему – «препятствие» выражено в альтернативе; способ решения проблемы – выбор адекватного действия).</modelDescription>
+		<intro>Nowadays commuters all over the world spend a lot of time stuck in traffic. The United State scientists have developed a navigation app that can help solve traffic problems.</intro>
+		<exercise>Listen to the reporter and choose the right variant to complete each sentence.</exercise>
+		<key></key>
+		<varFile>/ru/view/ex/466524.fxml</varFile>
+		<type>Audio</type>
+		<exAttachFile>/ru/res/audio/498437.mp3</exAttachFile>
+		<keyAttachFile></keyAttachFile>
+		<audioscriptFile>/ru/res/text/621377</audioscriptFile>
+	</ProEnglish>
+	<ProEnglish>
+		<id>A12</id>
+		<name>A12 How Does The USA Take Action Against Cyber Theft Threat?</name>
+		<modelName>Model IV (информационная модель).</modelName>
+		<modelDescription>Информационная модель (главное условие, вызывающее проблему – несоответствие наличных и требуемых знаний; способ решения проблемы – достижение новых знаний, необходимой информации).</modelDescription>
+		<intro>With the development of the Internet cyber thefts and espionage are increasing. A group of university undergraduates of IT department was invited to a lecture about actions against cyber theft threat taken by the USA. The students were given the theses of the speech but occasionally the staff responsible for the theses had typed some information incorrectly.</intro>
+		<exercise>Listen to the speaker, find out the wrong information and correct it.</exercise>
+		<key></key>
+		<varFile>/ru/view/ex/518063.fxml</varFile>
+		<type>Audio</type>
+		<exAttachFile>/ru/res/audio/513202.mp3</exAttachFile>
+		<keyAttachFile></keyAttachFile>
+		<audioscriptFile>/ru/res/text/700927</audioscriptFile>
+	</ProEnglish>
+	<ProEnglish>
+		<id>A13</id>
+		<name>A13 Will Eye-Tracking Software Look At You?</name>
+		<modelName>Model V (модель вариативного типа: вероятностная модель + информационная модель).</modelName>
+		<modelDescription>Модель вариативного типа (главное условие, вызывающее проблему и способ решения проблемы включают характеристики четырех предыдущих моделей).</modelDescription>
+		<intro>Advertising new computer software, developers tell us about the ways it can be used.</intro>
+		<exercise>Listen to the speaker and decide if the statements below are True or False. Find out how many parts the information includes.</exercise>
+		<key></key>
+		<varFile>/ru/view/ex/569556.fxml</varFile>
+		<type>Audio</type>
+		<exAttachFile>/ru/res/audio/531659.mp3</exAttachFile>
+		<keyAttachFile></keyAttachFile>
+		<audioscriptFile>/ru/res/text/725672</audioscriptFile>
+	</ProEnglish>
+	<BusEnglish>
+		<id>A14</id>
+		<name>A14 What Unusual Ways Of Getting A Job Do You Know?</name>
+		<modelName>Model I (поведенческая модель).</modelName>
+		<modelDescription>Поведенческая модель (главное условие, вызывающее проблему – препятствие на пути к цели; способ решения проблемы – преодоление препятствия, обходной путь).</modelDescription>
+		<intro>Attending seminars for job-seekers you were told some stories about unusual ways of getting a job. One story impressed you most but unfortunately you couldn’t hear all the details of the story. Guess what information you have missed and put it into the gaps.</intro>
+		<exercise>Then listen to the speaker, compare your variant with the sounding one and correct it if necessary.</exercise>
+		<key></key>
+		<varFile>/ru/view/ex/579943.fxml</varFile>
+		<type>Audio</type>
+		<exAttachFile>/ru/res/audio/539073.mp3</exAttachFile>
+		<keyAttachFile></keyAttachFile>
+		<audioscriptFile>/ru/res/text/759943</audioscriptFile>
+	</BusEnglish>
+	<BusEnglish>
+		<id>A15</id>
+		<name>A15 Are You Ready For The Interview?</name>
+		<modelName>Model I (поведенческая модель).</modelName>
+		<modelDescription>Поведенческая модель (главное условие, вызывающее проблему – препятствие на пути к цели; способ решения проблемы – преодоление препятствия, обходной путь).</modelDescription>
+		<intro>You have been invited to a TV program to listen to David Smyth, the Personnel manager of a major European insurance company, answering questions about the way he interviews and selects candidates. Unfortunately when the interviewer is asking questions you have to leave the room for this or that reason. Guess what questions have been asked and write them down.</intro>
+		<exercise>Listen to the conversation and check your variants.</exercise>
+		<key></key>
+		<varFile>/ru/view/ex/627228.fxml</varFile>
+		<type>Audio</type>
+		<exAttachFile>/ru/res/audio/688861.mp3</exAttachFile>
+		<keyAttachFile>/ru/res/audio/692816.mp3</keyAttachFile>
+		<audioscriptFile>/ru/res/text/796990</audioscriptFile>
+	</BusEnglish>
+	<BusEnglish>
+		<id>A16</id>
+		<name>A16 Do You Know Stages Of An Interview?</name>
+		<modelName>Model II (гештальт-модель).</modelName>
+		<modelDescription>Гештальт-модель (главное условие, вызывающее проблему – деструктурированность условий и предмета мышления; способ решения проблемы – создание «хорошей структуры», понимание).</modelDescription>
+		<intro>David Smyth, the Personnel manager of a major European insurance company, talks about the stages of an interview. You try to make notes but you do not have time to follow the order.</intro>
+		<exercise>Listen to David Smyth again and put the stages of an interview in the order they are mentioned in the speech.</exercise>
+		<key></key>
+		<varFile>/ru/view/ex/651958.fxml</varFile>
+		<type>Audio</type>
+		<exAttachFile>/ru/res/audio/597395.mp3</exAttachFile>
+		<keyAttachFile></keyAttachFile>
+		<audioscriptFile>/ru/res/text/823129</audioscriptFile>
+	</BusEnglish>
+	<BusEnglish>
+		<id>A17</id>
+		<name>A17 Can Your Application and CV Impress Potential Employers?</name>
+		<modelName>Model II (гештальт-модель).</modelName>
+		<modelDescription>Гештальт-модель (главное условие, вызывающее проблему – деструктурированность условий и предмета мышления; способ решения проблемы – создание «хорошей структуры», понимание).</modelDescription>
+		<intro>After advertising a new post, Philip Hart and Marcia Boardman discuss the applications and CVs they received and the interview format.</intro>
+		<exercise>Listen to their conversation and find out if the information below is presented in the correct order. If not, put the information in the order it is mentioned in the dialogue.</exercise>
+		<key></key>
+		<varFile>/ru/view/ex/703320.fxml</varFile>
+		<type>Video</type>
+		<exAttachFile>/ru/res/video/602489.mp4</exAttachFile>
+		<keyAttachFile></keyAttachFile>
+		<audioscriptFile>/ru/res/text/880780</audioscriptFile>
+	</BusEnglish>
+	<BusEnglish>
+		<id>A18</id>
+		<name>A18 What Should We Do to Succeed in Business?</name>
+		<modelName>Model III (вероятностная модель).</modelName>
+		<modelDescription>Вероятностная модель (главное условие, вызывающее проблему – «препятствие» выражено в альтернативе; способ решения проблемы – выбор адекватного действия).</modelDescription>
+		<intro>The first step to a successful business is a good idea but it is not enough. Tom Smith, a language consultant and business English material writer has some answers.</intro>
+		<exercise>Listen to the speaker and choose the correct variant in each statement below.</exercise>
+		<key></key>
+		<varFile>/ru/view/ex/862684.fxml</varFile>
+		<type>Audio</type>
+		<exAttachFile>/ru/res/video/610066.mp4</exAttachFile>
+		<keyAttachFile></keyAttachFile>
+		<audioscriptFile>/ru/res/text/884352</audioscriptFile>
+	</BusEnglish>
+	<BusEnglish>
+		<id>A19</id>
+		<name>A19 Are You A Tough Negotiator?</name>
+		<modelName>Model III (вероятностная модель).</modelName>
+		<modelDescription>Вероятностная модель (главное условие, вызывающее проблему – «препятствие» выражено в альтернативе; способ решения проблемы – выбор адекватного действия).</modelDescription>
+		<intro>Sarah Timms was offered a job by WebWare. Before accepting the job offer Sarah meets Marcia to negotiate on a few areas of her contract.</intro>
+		<exercise>Listen to the speakers and choose the correct variant in each statement below.</exercise>
+		<key></key>
+		<varFile>/ru/view/ex/870175.fxml</varFile>
+		<type>Video</type>
+		<exAttachFile>/ru/res/video/610066.mp4</exAttachFile>
+		<keyAttachFile></keyAttachFile>
+		<audioscriptFile>/ru/res/text/916337</audioscriptFile>
+	</BusEnglish>
+	<BusEnglish>
+		<id>A20</id>
+		<name>A20 Are You Going Abroad On A Business Trip?</name>
+		<modelName>Model IV (информационная модель).</modelName>
+		<modelDescription>Информационная модель (главное условие, вызывающее проблему – несоответствие наличных и требуемых знаний; способ решения проблемы – достижение новых знаний, необходимой информации).</modelDescription>
+		<intro>A group of IT specialists are going on a business trip to Japan. Before the trip Nikita Pavlov, the head of IT department, went to seminars given by a Japanese consultant. Then seminar he wrote a memo about the seminars to his Managing Director (Vladimir Alexeev).</intro>
+		<exercise>Listen to the Japanese consultant and find out the information to complete the memo.</exercise>
+		<key></key>
+		<varFile>/ru/view/ex/902151.fxml</varFile>
+		<type>Audio</type>
+		<exAttachFile>/ru/res/audio/612999.mp3</exAttachFile>
+		<keyAttachFile></keyAttachFile>
+		<audioscriptFile>/ru/res/text/934705</audioscriptFile>
+	</BusEnglish>
+	<BusEnglish>
+		<id>A21</id>
+		<name>A21 What Do You Know about the Dana Corporation?</name>
+		<modelName>Model V (модель вариативного типа: информационная модель + вероятностная модель + гештальт-модель).</modelName>
+		<modelDescription>Модель вариативного типа (главное условие, вызывающее проблему и способ решения проблемы включают характеристики четырех предыдущих моделей).</modelDescription>
+		<intro>You are at a company profile presentation. The representative of the Dana Corporation is giving some information about the company.</intro>
+		<exercise>Listen to three extracts from the presentation about the Dana Corporation and do the following.</exercise>
+		<key></key>
+		<varFile>/ru/view/ex/992036.fxml</varFile>
+		<type>Audio</type>
+		<exAttachFile>/ru/res/audio/668916.mp3</exAttachFile>
+		<keyAttachFile></keyAttachFile>
+		<audioscriptFile>/ru/res/text/941997</audioscriptFile>
+	</BusEnglish>
+</Charters>

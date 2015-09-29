@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="290.0" minWidth="-Infinity" prefWidth="835.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.controller.VarController">
+   <center>
+      <VBox fx:id="dragDrop" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" spacing="15.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" text="A. The interviewer reviews the CV." wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" text="B. The interviewer greets the candidate and brings him into the office." wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" text="C. The interviewer gives the candidate his views on the job andthe company." wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" text="D. The interviewer is informed that the candidate has arrived." wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" text="E. The candidate is asked what he/she knows about the job and the company." wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" text="F. The interviewer asks more general questions about the candidate’s life, and adds one or two trick questions at the end of the interview." wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" text="G. The candidate asks questions for about 5 or 10 minutes." wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+         <BorderPane.margin>
+            <Insets top="10.0" />
+         </BorderPane.margin>
+      </VBox>
+   </center>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+</BorderPane>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<BorderPane minHeight="250.0" minWidth="-Infinity" prefWidth="825.0"
+	xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="ru.controller.VarController">
+	<padding>
+		<Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+	</padding>
+	<center>
+		<GridPane gridLinesVisible="true" prefHeight="563.0"
+			BorderPane.alignment="CENTER">
+			<fx:define>
+				<ToggleGroup fx:id="tg" />
+			</fx:define>
+			<columnConstraints>
+				<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0"
+					prefWidth="100.0" />
+				<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0"
+					prefWidth="100.0" />
+				<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0"
+					prefWidth="100.0" />
+			</columnConstraints>
+			<rowConstraints>
+				<RowConstraints maxHeight="27.0" minHeight="0.0"
+					prefHeight="0.0" vgrow="SOMETIMES" />
+				<RowConstraints prefHeight="0.0" vgrow="SOMETIMES" />
+				<RowConstraints prefHeight="0.0" vgrow="SOMETIMES" />
+				<RowConstraints prefHeight="0.0" vgrow="SOMETIMES" />
+				<RowConstraints prefHeight="0.0" vgrow="SOMETIMES" />
+				<RowConstraints prefHeight="0.0" vgrow="SOMETIMES" />
+				<RowConstraints prefHeight="0.0" vgrow="SOMETIMES" />
+			</rowConstraints>
+			
+			<children>
+				<HBox alignment="CENTER">
+					<children>
+						<RadioButton fx:id="a" mnemonicParsing="false"
+							toggleGroup="$tg">
+						</RadioButton>
+						<Text strokeType="OUTSIDE" strokeWidth="0.0" text="A">
+							<font>
+								<Font name="System Bold" size="20.0" />
+							</font>
+							<HBox.margin>
+								<Insets right="26.0" />
+							</HBox.margin>
+						</Text>
+					</children>
+					<opaqueInsets>
+						<Insets />
+					</opaqueInsets>
+				</HBox>
+				<HBox alignment="CENTER" GridPane.columnIndex="1">
+					<children>
+						<RadioButton fx:id="b" mnemonicParsing="false"
+							toggleGroup="$tg" />
+						<Text strokeType="OUTSIDE" strokeWidth="0.0" text="B">
+							<font>
+								<Font name="System Bold" size="20.0" />
+							</font>
+							<HBox.margin>
+								<Insets right="26.0" />
+							</HBox.margin>
+						</Text>
+					</children>
+				</HBox>
+				<HBox alignment="CENTER" GridPane.columnIndex="2">
+					<children>
+						<RadioButton fx:id="c" mnemonicParsing="false"
+							toggleGroup="$tg" />
+						<Text strokeType="OUTSIDE" strokeWidth="0.0" text="C">
+							<font>
+								<Font name="System Bold" size="20.0" />
+							</font>
+							<HBox.margin>
+								<Insets right="26.0" />
+							</HBox.margin>
+						</Text>
+					</children>
+				</HBox>
+				<Label lineSpacing="2.0" text="1. Freeing teachers from paperwork."
+					wrapText="true" GridPane.rowIndex="1">
+					<GridPane.margin>
+						<Insets left="5.0" right="5.0" />
+					</GridPane.margin>
+					<font>
+						<Font size="15.0" />
+					</font>
+				</Label>
+				<Label lineSpacing="2.0"
+					text="1. Learning and administration will be paper-free." wrapText="true"
+					GridPane.columnIndex="1" GridPane.rowIndex="1">
+					<font>
+						<Font size="15.0" />
+					</font>
+					<GridPane.margin>
+						<Insets left="5.0" right="5.0" />
+					</GridPane.margin>
+				</Label>
+				<Label lineSpacing="2.0"
+					text="1. Learning and administration will be paper-free." wrapText="true"
+					GridPane.columnIndex="2" GridPane.rowIndex="1">
+					<font>
+						<Font size="15.0" />
+					</font>
+					<GridPane.margin>
+						<Insets left="5.0" right="5.0" />
+					</GridPane.margin>
+				</Label>
+				<Label lineSpacing="2.0"
+					text="2. Pupils will have access to a world of learning." wrapText="true"
+					GridPane.rowIndex="2">
+					<font>
+						<Font size="15.0" />
+					</font>
+					<GridPane.margin>
+						<Insets left="5.0" right="5.0" />
+					</GridPane.margin>
+				</Label>
+				<Label lineSpacing="2.0"
+					text="2. The resources will be greater than any school can provide."
+					wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="2">
+					<font>
+						<Font size="15.0" />
+					</font>
+					<GridPane.margin>
+						<Insets left="5.0" right="5.0" />
+					</GridPane.margin>
+				</Label>
+				<Label lineSpacing="2.0"
+					text="2. Pupils will have access to a world of learning." wrapText="true"
+					GridPane.columnIndex="2" GridPane.rowIndex="2">
+					<font>
+						<Font size="15.0" />
+					</font>
+					<GridPane.margin>
+						<Insets left="5.0" right="5.0" />
+					</GridPane.margin>
+				</Label>
+				<Label lineSpacing="2.0"
+					text="3. The resources will be greater than any school can provide."
+					wrapText="true" GridPane.rowIndex="3">
+					<font>
+						<Font size="15.0" />
+					</font>
+					<GridPane.margin>
+						<Insets left="5.0" right="5.0" />
+					</GridPane.margin>
+				</Label>
+				<Label lineSpacing="2.0"
+					text="3. Pupils will have access to a world of learning." wrapText="true"
+					GridPane.columnIndex="1" GridPane.rowIndex="3">
+					<font>
+						<Font size="15.0" />
+					</font>
+					<GridPane.margin>
+						<Insets left="5.0" right="5.0" />
+					</GridPane.margin>
+				</Label>
+				<Label lineSpacing="2.0"
+					text="3. The resources will be greater than any school can provide."
+					wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="3">
+					<font>
+						<Font size="15.0" />
+					</font>
+					<GridPane.margin>
+						<Insets left="5.0" right="5.0" />
+					</GridPane.margin>
+				</Label>
+				<Label lineSpacing="2.0"
+					text="4. E-mail will allow pupils to communicate easily all over the world."
+					wrapText="true" GridPane.rowIndex="4">
+					<font>
+						<Font size="15.0" />
+					</font>
+					<GridPane.margin>
+						<Insets left="5.0" right="5.0" />
+					</GridPane.margin>
+				</Label>
+				<Label lineSpacing="2.0"
+					text="4. E-mail will allow pupils to communicate easily all over the world."
+					wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="4">
+					<font>
+						<Font size="15.0" />
+					</font>
+					<GridPane.margin>
+						<Insets left="5.0" right="5.0" />
+					</GridPane.margin>
+				</Label>
+				<Label lineSpacing="2.0"
+					text="4. IT skills will equip pupils for an IT- based future."
+					wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="4">
+					<font>
+						<Font size="15.0" />
+					</font>
+					<GridPane.margin>
+						<Insets left="5.0" right="5.0" />
+					</GridPane.margin>
+				</Label>
+				<Label lineSpacing="2.0"
+					text="5. IT skills will equip pupils for an IT- based future."
+					wrapText="true" GridPane.rowIndex="5">
+					<font>
+						<Font size="15.0" />
+					</font>
+					<GridPane.margin>
+						<Insets left="5.0" right="5.0" />
+					</GridPane.margin>
+				</Label>
+				<Label lineSpacing="2.0"
+					text="5. IT skills will equip pupils for an IT- based future."
+					wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="5">
+					<font>
+						<Font size="15.0" />
+					</font>
+					<GridPane.margin>
+						<Insets left="5.0" right="5.0" />
+					</GridPane.margin>
+				</Label>
+				<Label lineSpacing="2.0"
+					text="5. E-mail will allow pupils to communicate easily all over the world."
+					wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="5">
+					<font>
+						<Font size="15.0" />
+					</font>
+					<GridPane.margin>
+						<Insets left="5.0" right="5.0" />
+					</GridPane.margin>
+				</Label>
+				<Label lineSpacing="2.0"
+					text="6. Administration and learning will be paper-free." wrapText="true"
+					GridPane.rowIndex="6">
+					<font>
+						<Font size="15.0" />
+					</font>
+					<GridPane.margin>
+						<Insets left="5.0" right="5.0" />
+					</GridPane.margin>
+				</Label>
+				<Label lineSpacing="2.0"
+					text="6. Freeing teachers from paperwork." wrapText="true"
+					GridPane.columnIndex="1" GridPane.rowIndex="6">
+					<font>
+						<Font size="15.0" />
+					</font>
+					<GridPane.margin>
+						<Insets left="5.0" right="5.0" />
+					</GridPane.margin>
+				</Label>
+				<Label lineSpacing="2.0"
+					text="6. Freeing teachers from paperwork." wrapText="true"
+					GridPane.columnIndex="2" GridPane.rowIndex="6">
+					<font>
+						<Font size="15.0" />
+					</font>
+					<GridPane.margin>
+						<Insets left="5.0" right="5.0" />
+					</GridPane.margin>
+				</Label>
+			</children>
+		</GridPane>
+	</center>
+</BorderPane>

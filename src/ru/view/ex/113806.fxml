@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="300.0" minWidth="-Infinity" prefWidth="835.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.controller.VarController">
+   <center>
+      <VBox fx:id="dragDrop" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" spacing="10.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" style="-fx-border-color: red;" text="A. The example of pro-smoking apps." wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" style="-fx-border-color: black;" text="B. Tobacco companies’ avoiding a worldwide ban on advertising tobacco products. " wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>the
+            </Label>
+            <Label maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" style="-fx-border-color: green;" text="C. The violence of Health Organization Framework Convention on Tobacco." wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label lineSpacing="2.0" maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" style="-fx-border-color: brown;" text="D. The findings of Australian researchers: the apps included games, socialutilities and advertisements for tobacco products." wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" style="-fx-border-color: black;" text="E. The misleading names of some apps." wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" style="-fx-border-color: red;" text="F. The number of people having smartphones." wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" style="-fx-border-color: green;" text="G. Android apps simulation of smoking." wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+         <BorderPane.margin>
+            <Insets right="10.0" />
+         </BorderPane.margin>
+      </VBox>
+   </center>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+   <top>
+      <VBox spacing="5.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox alignment="CENTER">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Seminar program" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Text>
+               </children>
+            </VBox>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Topic: Smartphone Apps Are Encouraging Young Smokers">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Registration: from 9 am till 9.45 am">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Start: 10 am">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="End: 3 pm">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Location: University Conference Hall ">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Issues to be covered include:">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Text>
+         </children>
+         <padding>
+            <Insets bottom="5.0" />
+         </padding>
+      </VBox>
+   </top>
+   <bottom>
+      <VBox alignment="CENTER" spacing="5.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="…">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="410.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thank you for participating">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+   </bottom>
+</BorderPane>

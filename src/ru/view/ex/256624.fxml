@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="300.0" minWidth="-Infinity" prefWidth="835.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.controller.VarController">
+   <center>
+      <VBox maxWidth="1.7976931348623157E308" spacing="10.0" HBox.hgrow="ALWAYS">
+         <HBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </HBox.margin>
+         <children>
+            <TextFlow maxHeight="815.0" maxWidth="1.7976931348623157E308">
+               <children>
+                  <Label prefWidth="810.0" text="The Bologna Process is a voluntary initiative that *** by making academic degree and quality control standards more compatible and easier to compare with one another." wrapText="true">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <TextField prefWidth="810.0" promptText="Please insert answer here." />
+                  <Label prefWidth="810.0" text="Now, for many people across the EU, any mention of Europe-wide initiatives is terrifying! Obviously, for some traditionalists, the idea of any kind of standardization is too much for them to bear." wrapText="true">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label prefWidth="810.0" text="Under the old system, credits were sometimes awarded to students *** ." wrapText="true">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <TextField prefWidth="810.0" promptText="Please insert answer here." />
+                  <Label prefWidth="810.0" text="This led to some countries refusing to recognize qualifications from others. Under Bologna, credits will be based on *** ." wrapText="true">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <TextField prefWidth="810.0" promptText="Please insert answer here." />
+                  <Label prefWidth="810.0" text="There will also be greater emphasis placed on *** ." wrapText="true">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <TextField prefWidth="810.0" promptText="Please insert answer here." />
+                  <Label prefWidth="810.0" text="Under Bologna, both students and academic staff can move around the Euro zone more easily, without always having to explain their qualifications! Europe becomes a more attractive destination for non-European students." wrapText="true">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label prefWidth="810.0" text="The main change happening is that *** and instead are starting *** ." wrapText="true">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <TextField prefWidth="810.0" promptText="Please insert answer here." />
+                  <Label prefWidth="810.0" text="These are then followed by *** ." wrapText="true">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <TextField prefWidth="810.0" promptText="Please insert answer here." />
+                  <Label prefWidth="810.0" text="Many countries have introduced radical reforms. " wrapText="true">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label prefWidth="810.0" text="The changes have not gone unchallenged. Public reaction has been particularly heated *** ." wrapText="true">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <TextField prefWidth="810.0" promptText="Please insert answer here." />
+                  <Label prefWidth="810.0" text="*** has seen general strikes – and even ***, as it is no longer the only country to offer shorter degree courses!" wrapText="true">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <TextField prefWidth="810.0" promptText="Please insert answer here." />
+               </children>
+            </TextFlow>
+         </children>
+      </VBox>
+   </center>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+</BorderPane>

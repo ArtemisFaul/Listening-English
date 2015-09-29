@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="300.0" minWidth="-Infinity" prefWidth="839.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.controller.VarController">
+	<center>
+		<VBox maxHeight="1.7976931348623157E308" maxWidth="-Infinity" prefWidth="810.0" spacing="10.0" BorderPane.alignment="CENTER">
+			<children>
+				<TextFlow maxWidth="1.7976931348623157E308">
+					<children>
+						<Label text="1. There is ">
+							<font>
+								<Font name="Segoe UI" size="15.0" />
+							</font>
+						</Label>
+						<Label text="a pay scale" textFill="#a81515">
+							<font>
+								<Font name="Segoe UI Italic" size="15.0" />
+							</font>
+						</Label>
+						<Label text=" / ">
+							<font>
+								<Font name="Segoe UI" size="15.0" />
+							</font>
+						</Label>
+						<Label text="a fixed salary" textFill="#a81515">
+							<font>
+								<Font name="Segoe UI Italic" size="15.0" />
+							</font>
+						</Label>
+						<Label text=" in accordance with the contract." wrapText="true">
+							<font>
+								<Font name="Segoe UI" size="15.0" />
+							</font>
+						</Label>
+					</children>
+				</TextFlow>
+				<fx:define>
+					<ToggleGroup fx:id="tg1" />
+				</fx:define>
+				<RadioButton mnemonicParsing="false" text="a pay scale">
+               <toggleGroup>
+                  <ToggleGroup fx:id="tg1" />
+               </toggleGroup></RadioButton>
+				<RadioButton mnemonicParsing="false" text="a fixed salary" toggleGroup="$tg1" />
+				<TextFlow layoutX="10.0" layoutY="10.0" maxWidth="1.7976931348623157E308">
+					<children>
+						<Label text="2. The company see Sarah ">
+							<font>
+								<Font name="Segoe UI" size="15.0" />
+							</font>
+						</Label>
+						<Label text="as an experienced employee" textFill="#a81515">
+							<font>
+								<Font name="Segoe UI Italic" size="15.0" />
+							</font>
+						</Label>
+						<Label text=" / ">
+							<font>
+								<Font name="Segoe UI" size="15.0" />
+							</font>
+						</Label>
+						<Label text="as an investment." textFill="#a81515">
+							<font>
+								<Font name="Segoe UI Italic" size="15.0" />
+							</font>
+						</Label>
+					</children>
+				</TextFlow>
+				<fx:define>
+					<ToggleGroup fx:id="tg2" />
+				</fx:define>
+				<RadioButton mnemonicParsing="false" text="as an experienced employee">
+               <toggleGroup>
+                  <ToggleGroup fx:id="tg2" />
+               </toggleGroup></RadioButton>
+				<RadioButton mnemonicParsing="false" text="as an investment" toggleGroup="$tg2" />
+				<TextFlow maxWidth="1.7976931348623157E308">
+					<children>
+						<Label text="3. Sarah’s salary would be ">
+							<font>
+								<Font name="Segoe UI" size="15.0" />
+							</font>
+						</Label>
+						<Label text="a little less" textFill="#a81515">
+							<font>
+								<Font name="Segoe UI Italic" size="15.0" />
+							</font>
+						</Label>
+						<Label layoutX="558.0" layoutY="10.0" text=" / ">
+							<font>
+								<Font name="Segoe UI" size="15.0" />
+							</font>
+						</Label>
+						<Label text="a little more" textFill="#a81515">
+							<font>
+								<Font name="Segoe UI Italic" size="15.0" />
+							</font>
+						</Label>
+      						<Label text=" than she’s earning now.">
+      							<font>
+      								<Font name="Segoe UI" size="15.0" />
+      							</font>
+      						</Label>
+					</children>
+				</TextFlow>
+				<fx:define>
+					<ToggleGroup fx:id="tg3" />
+				</fx:define>
+				<RadioButton mnemonicParsing="false" text="a little less">
+               <toggleGroup>
+                  <ToggleGroup fx:id="tg3" />
+               </toggleGroup></RadioButton>
+				<RadioButton mnemonicParsing="false" text="a little more" toggleGroup="$tg3" />
+				<TextFlow maxWidth="1.7976931348623157E308">
+					<children>
+                  <Label text="4. Sarah asks for ">
+                     <font>
+                        <Font name="Segoe UI" size="15.0" />
+                     </font>
+                  </Label>
+						<Label text="a higher level of salary" textFill="#a81515">
+							<font>
+								<Font name="Segoe UI Italic" size="15.0" />
+							</font>
+						</Label>
+						<Label text=" / ">
+							<font>
+								<Font name="Segoe UI" size="15.0" />
+							</font>
+						</Label>
+						<Label text="a tangible reward" textFill="#a81515">
+							<font>
+								<Font name="Segoe UI Italic" size="15.0" />
+							</font>
+						</Label>
+						<Label text=" for well-done work." wrapText="true">
+							<font>
+								<Font name="Segoe UI" size="15.0" />
+							</font>
+						</Label>
+					</children>
+				</TextFlow>
+				<fx:define>
+					<ToggleGroup fx:id="tg4" />
+				</fx:define>
+				<RadioButton mnemonicParsing="false" text="a higher level of salary">
+               <toggleGroup>
+                  <ToggleGroup fx:id="tg4" />
+               </toggleGroup></RadioButton>
+				<RadioButton mnemonicParsing="false" text="a tangible reward" toggleGroup="$tg4" />
+				<TextFlow maxWidth="1.7976931348623157E308">
+					<children>
+						<Label text="5. Sarah thinks that a 25-day holiday ">
+							<font>
+								<Font name="Segoe UI" size="15.0" />
+							</font>
+						</Label>
+						<Label text="is quite enough" textFill="#a81515">
+							<font>
+								<Font name="Segoe UI Italic" size="15.0" />
+							</font>
+						</Label>
+						<Label text=" / ">
+							<font>
+								<Font name="Segoe UI" size="15.0" />
+							</font>
+						</Label>
+						<Label text="is not enough" textFill="#a81515">
+							<font>
+								<Font name="Segoe UI Italic" size="15.0" />
+							</font>
+						</Label>
+                  <Label layoutX="10.0" layoutY="10.0" text=" for a high pressure job.">
+                     <font>
+                        <Font name="Segoe UI" size="15.0" />
+                     </font>
+                  </Label>
+					</children>
+				</TextFlow>
+				<fx:define>
+					<ToggleGroup fx:id="tg5" />
+				</fx:define>
+				<RadioButton mnemonicParsing="false" text="is quite enough">
+               <toggleGroup>
+                  <ToggleGroup fx:id="tg5" />
+               </toggleGroup></RadioButton>
+				<RadioButton mnemonicParsing="false" text="is not enough" toggleGroup="$tg5" />
+				<TextFlow maxWidth="1.7976931348623157E308">
+					<children>
+						<Label text="6. Sarah starts work ">
+							<font>
+								<Font name="Segoe UI" size="15.0" />
+							</font>
+						</Label>
+						<Label text="in a week" textFill="#a81515">
+							<font>
+								<Font name="Segoe UI Italic" size="15.0" />
+							</font>
+						</Label>
+						<Label text=" / ">
+							<font>
+								<Font name="Segoe UI" size="15.0" />
+							</font>
+						</Label>
+						<Label text="in a month." textFill="#a81515">
+							<font>
+								<Font name="Segoe UI Italic" size="15.0" />
+							</font>
+						</Label>
+					</children>
+				</TextFlow>
+				<fx:define>
+					<ToggleGroup fx:id="tg6" />
+				</fx:define>
+				<RadioButton mnemonicParsing="false" text="in a week">
+               <toggleGroup>
+                  <ToggleGroup fx:id="tg6" />
+               </toggleGroup></RadioButton>
+				<RadioButton mnemonicParsing="false" text="in a month." toggleGroup="$tg6" />
+				<TextFlow maxWidth="1.7976931348623157E308">
+					<children>
+						<Label text="7. The company is ready ">
+							<font>
+								<Font name="Segoe UI" size="15.0" />
+							</font>
+						</Label>
+						<Label text="to come in terms with Sarah" textFill="#a81515">
+							<font>
+								<Font name="Segoe UI Italic" size="15.0" />
+							</font>
+						</Label>
+						<Label text=" / ">
+							<font>
+								<Font name="Segoe UI" size="15.0" />
+							</font>
+						</Label>
+						<Label text="to reject Sarah’s claims." textFill="#a81515">
+							<font>
+								<Font name="Segoe UI Italic" size="15.0" />
+							</font>
+						</Label>
+					</children>
+				</TextFlow>
+				<fx:define>
+					<ToggleGroup fx:id="tg7" />
+				</fx:define>
+			<RadioButton mnemonicParsing="false" text="to come in terms with Sarah">
+               <toggleGroup>
+                  <ToggleGroup fx:id="tg7" />
+               </toggleGroup></RadioButton>
+			<RadioButton mnemonicParsing="false" text="to reject Sarah’s claims" toggleGroup="$tg7" />
+			</children>
+		</VBox>
+	</center>
+	<padding>
+		<Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+	</padding>
+</BorderPane>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="300.0" minWidth="-Infinity" prefWidth="835.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.controller.VarController">
+   <center>
+      <VBox maxWidth="-Infinity" prefWidth="810.0">
+         <children>
+            <Label lineSpacing="2.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Extract I. Listen to the first extract of the presentation and find out if the presenter has covered all the elements below. Put a tick if the element has been mentioned." wrapText="true">
+               <VBox.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <HBox maxWidth="1.7976931348623157E308" BorderPane.alignment="CENTER">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Right?" />
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="15.0" />
+         </BorderPane.margin>
+               <VBox.margin>
+                  <Insets bottom="5.0" />
+               </VBox.margin>
+      </HBox>
+            <HBox>
+         <children>
+            <VBox maxWidth="1.7976931348623157E308" spacing="10.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <HBox spacing="8.0">
+                     <children>
+                        <CheckBox mnemonicParsing="false">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </CheckBox>
+                        <Label lineSpacing="2.0" maxWidth="1.7976931348623157E308" minHeight="-Infinity" text="1. Introducing yourself" wrapText="true">
+                           <font>
+                              <Font size="14.6" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox spacing="8.0">
+                     <children>
+                        <CheckBox mnemonicParsing="false" />
+                        <Label alignment="TOP_LEFT" lineSpacing="2.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" text="2. Topic" wrapText="true">
+                           <font>
+                              <Font size="14.6" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox spacing="8.0">
+                     <children>
+                        <CheckBox mnemonicParsing="false" />
+                        <Label alignment="TOP_LEFT" lineSpacing="2.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" text="3. Objective(s)" wrapText="true">
+                           <font>
+                              <Font size="14.6" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox spacing="8.0">
+                     <children>
+                        <CheckBox mnemonicParsing="false" />
+                        <Label alignment="TOP_LEFT" lineSpacing="2.0" maxWidth="1.7976931348623157E308" minHeight="-Infinity" text="4. Role of the audience" wrapText="true">
+                           <font>
+                              <Font size="14.6" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox spacing="8.0">
+                     <children>
+                        <CheckBox mnemonicParsing="false" />
+                        <Label alignment="TOP_LEFT" lineSpacing="2.0" maxWidth="1.7976931348623157E308" minHeight="-Infinity" text="5. Timing" wrapText="true">
+                           <font>
+                              <Font size="14.6" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+               <HBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" />
+               </HBox.margin>
+            </VBox>
+         </children>
+      </HBox>
+            <Label layoutX="10.0" layoutY="20.0" lineSpacing="2.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Extract II. In the second extract the presenter gives information about the company’s philosophy. Listen to the second extract and decide if the information below is True:" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="10.0" top="20.0" />
+               </VBox.margin>
+            </Label>
+           <HBox maxWidth="1.7976931348623157E308" BorderPane.alignment="CENTER">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="True?" />
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="15.0" />
+         </BorderPane.margin>
+               <VBox.margin>
+                  <Insets bottom="5.0" />
+               </VBox.margin>
+      </HBox>
+           <HBox>
+         <children>
+            <VBox maxWidth="1.7976931348623157E308" spacing="10.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <HBox spacing="8.0">
+                     <children>
+                        <CheckBox mnemonicParsing="false">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </CheckBox>
+                        <Label lineSpacing="2.0" maxWidth="1.7976931348623157E308" minHeight="-Infinity" text="1. Success in business mostly depends on money." wrapText="true">
+                           <font>
+                              <Font size="14.6" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox spacing="8.0">
+                     <children>
+                        <CheckBox mnemonicParsing="false" />
+                        <Label alignment="TOP_LEFT" lineSpacing="2.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" text="2. The company believes in discipline." wrapText="true">
+                           <font>
+                              <Font size="14.6" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox spacing="8.0">
+                     <children>
+                        <CheckBox mnemonicParsing="false" />
+                        <Label alignment="TOP_LEFT" lineSpacing="2.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" text="3. Dana Corporation’s goal is 40 hours of education per year for a new group of workers." wrapText="true">
+                           <font>
+                              <Font size="14.6" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox spacing="8.0">
+                     <children>
+                        <CheckBox mnemonicParsing="false" />
+                        <Label alignment="TOP_LEFT" lineSpacing="2.0" maxWidth="1.7976931348623157E308" minHeight="-Infinity" text="4. The Corporation has its own university." wrapText="true">
+                           <font>
+                              <Font size="14.6" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox spacing="8.0">
+                     <children>
+                        <CheckBox mnemonicParsing="false" />
+                        <Label alignment="TOP_LEFT" lineSpacing="2.0" maxWidth="1.7976931348623157E308" minHeight="-Infinity" text="5. The company’s statistics is meaningful." wrapText="true">
+                           <font>
+                              <Font size="14.6" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox spacing="8.0">
+                     <children>
+                        <CheckBox mnemonicParsing="false" />
+                        <Label alignment="TOP_LEFT" lineSpacing="2.0" maxWidth="1.7976931348623157E308" minHeight="-Infinity" text="6. The presenter has not used visuals." wrapText="true">
+                           <font>
+                              <Font size="14.6" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+               <HBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" />
+               </HBox.margin>
+            </VBox>
+         </children>
+      </HBox>
+            <Label layoutX="10.0" layoutY="453.0" lineSpacing="2.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Extract III. In the last extract the presenter has pointed out some things important for the company. Listen to the presenter and correct the order of the information." wrapText="true">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="10.0" top="20.0" />
+               </VBox.margin>
+            </Label>
+            <VBox fx:id="dragDrop" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" spacing="10.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" text="A. Every person in the corporation submits at least two ideas for improvementsper month." wrapText="true">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" text="B. The company’s ideas programme is much more than a simple suggestion scheme." wrapText="true">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" text="C. The presenter gives the example of how the programme works." wrapText="true">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label lineSpacing="2.0" maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" text="D. The company gets more than 2 million ideas per year." wrapText="true">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" text="E. Communication is a key point for Dana Corporation." wrapText="true">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </center>
+   <padding>
+      <Insets bottom="20.0" left="10.0" right="10.0" top="20.0" />
+   </padding>
+</BorderPane>

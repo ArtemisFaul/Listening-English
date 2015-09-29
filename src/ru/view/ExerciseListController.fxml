@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane fx:id="paragBP" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="626.0" prefWidth="840.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.controller.ExerciseListController">
+   <top>
+      <AnchorPane fx:id="topELC" BorderPane.alignment="CENTER">
+         <children>
+            <Text text="The list of tasks" textAlignment="CENTER" textOrigin="CENTER" AnchorPane.bottomAnchor="7.0" AnchorPane.leftAnchor="59.0" AnchorPane.topAnchor="7.0">
+               <font>
+                  <Font name="Segoe UI Light" size="32.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="back" fitHeight="31.0" fitWidth="31.0" onMouseClicked="#backButton" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="10.0">
+               <image>
+                  <Image url="ru/res/image/back.png" />
+               </image>
+            </ImageView>
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="5.0" />
+         </BorderPane.margin>
+      </AnchorPane>
+   </top>
+   <bottom>
+      <VBox minHeight="220.0" spacing="5.0" style="-fx-background-color: transparent;" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="3.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label fx:id="nameex" wrapText="true" />
+            <Label fx:id="modelName" layoutX="15.0" layoutY="10.0" wrapText="true" />
+            <Label fx:id="modelDescription" layoutX="15.0" layoutY="30.0" wrapText="true" />
+            <Label fx:id="qestEx" wrapText="true">
+               <VBox.margin>
+                  <Insets left="3.0" right="3.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Segoe UI Semilight" size="14.0" />
+               </font>
+            </Label>
+            <Text fx:id="mediaBul">
+               <font>
+                  <Font name="Segoe UI" size="12.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="3.0" right="3.0" />
+               </VBox.margin>
+            </Text>
+            <Button fx:id="startEx" mnemonicParsing="false" onAction="#startExer" text="start" visible="false">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="5.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Segoe UI" size="12.0" />
+               </font>
+            </Button>
+         </children>
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </VBox>
+   </bottom>
+   <center>
+      <AnchorPane fx:id="listViewAnchor" style="-fx-border-color: gray;">
+         <GridPane.margin>
+            <Insets bottom="5.0" />
+         </GridPane.margin>
+      </AnchorPane>
+   </center>
+</BorderPane>

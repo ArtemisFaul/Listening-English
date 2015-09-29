@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="290.0" minWidth="-Infinity" prefWidth="835.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.controller.VarController">
+   <center>
+      <VBox fx:id="dragDrop" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefWidth="810.0" spacing="15.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" text="A. The company got over two hundred applications." wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" text="B. Marcia drew up a shortlist of twelve serious candidates." wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" text="C. They are going to discard people who sent long and funny-looking CVs." wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" text="D. People without right experience and qualifications will be discarded." wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" text="E. Philip and Marcia are going to interview all serious candidates." wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" text="F. They are planning to do the standard interview format." wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" text="G. Marcia has mentioned two pretty strong candidates." wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" text="H. Philip and Marcia want the candidates to give a short presentation aboutthe company and their potential contribution to it." wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" text="I. Philip would like to hear specific details of when the candidates havesolved problems." wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+         <BorderPane.margin>
+            <Insets top="10.0" />
+         </BorderPane.margin>
+      </VBox>
+   </center>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+</BorderPane>

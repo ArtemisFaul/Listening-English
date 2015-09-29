@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="300.0" minWidth="-Infinity" prefWidth="839.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.controller.VarController">
+	<center>
+		<VBox maxHeight="1.7976931348623157E308" maxWidth="-Infinity" prefWidth="810.0" spacing="10.0" BorderPane.alignment="CENTER">
+			<children>
+				<TextFlow maxWidth="1.7976931348623157E308">
+					<children>
+						<Label text="1. Recession is ">
+							<font>
+								<Font name="Segoe UI" size="15.0" />
+							</font>
+						</Label>
+						<Label text="not a time" textFill="#a81515">
+							<font>
+								<Font name="Segoe UI Italic" size="15.0" />
+							</font>
+						</Label>
+						<Label text=" / ">
+							<font>
+								<Font name="Segoe UI" size="15.0" />
+							</font>
+						</Label>
+						<Label text="a good time" textFill="#a81515">
+							<font>
+								<Font name="Segoe UI Italic" size="15.0" />
+							</font>
+						</Label>
+						<Label text=" for launching a new company." wrapText="true">
+							<font>
+								<Font name="Segoe UI" size="15.0" />
+							</font>
+						</Label>
+					</children>
+				</TextFlow>
+				<fx:define>
+					<ToggleGroup fx:id="tg1" />
+				</fx:define>
+				<RadioButton mnemonicParsing="false" text="not a time" toggleGroup="$tg1" />
+				<RadioButton mnemonicParsing="false" text="a good time" toggleGroup="$tg1" />
+				<TextFlow layoutX="10.0" layoutY="10.0" maxWidth="1.7976931348623157E308">
+					<children>
+						<Label text="2. ">
+							<font>
+								<Font name="Segoe UI" size="15.0" />
+							</font>
+						</Label>
+						<Label text="Only people with good economic education" textFill="#a81515">
+							<font>
+								<Font name="Segoe UI Italic" size="15.0" />
+							</font>
+						</Label>
+						<Label text=" / ">
+							<font>
+								<Font name="Segoe UI" size="15.0" />
+							</font>
+						</Label>
+						<Label text="Only energetic and confident people with a desire to try something new and the ability to stick with it" textFill="#a81515">
+							<font>
+								<Font name="Segoe UI Italic" size="15.0" />
+							</font>
+						</Label>
+                  <Label text="can succeed in business.">
+                     <font>
+                        <Font name="Segoe UI" size="15.0" />
+                     </font>
+                  </Label>
+					</children>
+				</TextFlow>
+				<fx:define>
+					<ToggleGroup fx:id="tg2" />
+				</fx:define>
+				<RadioButton mnemonicParsing="false" text="Only people with good economic education" toggleGroup="$tg2" />
+				<RadioButton mnemonicParsing="false" text="Only energetic and confident people with a desire to try something new and the ability to stick with it" toggleGroup="$tg2" />
+				<TextFlow maxWidth="1.7976931348623157E308">
+					<children>
+						<Label text="3. The statistics about failing new businesses is ">
+							<font>
+								<Font name="Segoe UI" size="15.0" />
+							</font>
+						</Label>
+						<Label text="discouraging" textFill="#a81515">
+							<font>
+								<Font name="Segoe UI Italic" size="15.0" />
+							</font>
+						</Label>
+						<Label layoutX="558.0" layoutY="10.0" text=" / ">
+							<font>
+								<Font name="Segoe UI" size="15.0" />
+							</font>
+						</Label>
+						<Label text="is not so discouraging." textFill="#a81515">
+							<font>
+								<Font name="Segoe UI Italic" size="15.0" />
+							</font>
+						</Label>
+					</children>
+				</TextFlow>
+				<fx:define>
+					<ToggleGroup fx:id="tg3" />
+				</fx:define>
+				<RadioButton mnemonicParsing="false" text="discouraging" toggleGroup="$tg3" />
+				<RadioButton mnemonicParsing="false" text="is not so discouraging" toggleGroup="$tg3" />
+				<TextFlow maxWidth="1.7976931348623157E308">
+					<children>
+						<Label text="4. ">
+							<font>
+								<Font name="Segoe UI" size="15.0" />
+							</font>
+						</Label>
+						<Label text="The quality of goods or services" textFill="#a81515">
+							<font>
+								<Font name="Segoe UI Italic" size="15.0" />
+							</font>
+						</Label>
+						<Label text=" / ">
+							<font>
+								<Font name="Segoe UI" size="15.0" />
+							</font>
+						</Label>
+						<Label text="Marketing strategy" textFill="#a81515">
+							<font>
+								<Font name="Segoe UI Italic" size="15.0" />
+							</font>
+						</Label>
+						<Label text=" is one of the steps in developing business." wrapText="true">
+							<font>
+								<Font name="Segoe UI" size="15.0" />
+							</font>
+						</Label>
+					</children>
+				</TextFlow>
+				<fx:define>
+					<ToggleGroup fx:id="tg4" />
+				</fx:define>
+				<RadioButton mnemonicParsing="false" text="The quality of goods or services" toggleGroup="$tg4" />
+				<RadioButton mnemonicParsing="false" text="Marketing strategy" toggleGroup="$tg4" />
+				<TextFlow maxWidth="1.7976931348623157E308">
+					<children>
+						<Label text="5. A good business plan is important for ">
+							<font>
+								<Font name="Segoe UI" size="15.0" />
+							</font>
+						</Label>
+						<Label text="paying debts" textFill="#a81515">
+							<font>
+								<Font name="Segoe UI Italic" size="15.0" />
+							</font>
+						</Label>
+						<Label text=" / ">
+							<font>
+								<Font name="Segoe UI" size="15.0" />
+							</font>
+						</Label>
+						<Label text="financing the idea." textFill="#a81515">
+							<font>
+								<Font name="Segoe UI Italic" size="15.0" />
+							</font>
+						</Label>
+					</children>
+				</TextFlow>
+				<fx:define>
+					<ToggleGroup fx:id="tg5" />
+				</fx:define>
+				<RadioButton mnemonicParsing="false" text="paying debts" toggleGroup="$tg5" />
+				<RadioButton mnemonicParsing="false" text="financing the idea" toggleGroup="$tg5" />
+				<TextFlow maxWidth="1.7976931348623157E308">
+					<children>
+						<Label text="6. A business incubator is ">
+							<font>
+								<Font name="Segoe UI" size="15.0" />
+							</font>
+						</Label>
+						<Label text="a special place for meeting businessmen" textFill="#a81515">
+							<font>
+								<Font name="Segoe UI Italic" size="15.0" />
+							</font>
+						</Label>
+						<Label text=" / ">
+							<font>
+								<Font name="Segoe UI" size="15.0" />
+							</font>
+						</Label>
+						<Label text="a support programme." textFill="#a81515">
+							<font>
+								<Font name="Segoe UI Italic" size="15.0" />
+							</font>
+						</Label>
+					</children>
+				</TextFlow>
+				<fx:define>
+					<ToggleGroup fx:id="tg6" />
+				</fx:define>
+				<RadioButton mnemonicParsing="false" text="a special place for meeting businessmen" toggleGroup="$tg6" />
+				<RadioButton mnemonicParsing="false" text="a support programme" toggleGroup="$tg6" />
+				<TextFlow maxWidth="1.7976931348623157E308">
+					<children>
+						<Label text="7. If the situation changes entrepreneurs should ">
+							<font>
+								<Font name="Segoe UI" size="15.0" />
+							</font>
+						</Label>
+						<Label text="create a new business" textFill="#a81515">
+							<font>
+								<Font name="Segoe UI Italic" size="15.0" />
+							</font>
+						</Label>
+						<Label text=" / ">
+							<font>
+								<Font name="Segoe UI" size="15.0" />
+							</font>
+						</Label>
+						<Label text="have an exit strategy." textFill="#a81515">
+							<font>
+								<Font name="Segoe UI Italic" size="15.0" />
+							</font>
+						</Label>
+					</children>
+				</TextFlow>
+				<fx:define>
+					<ToggleGroup fx:id="tg7" />
+				</fx:define>
+			<RadioButton mnemonicParsing="false" text="create a new business" toggleGroup="$tg7" />
+			<RadioButton mnemonicParsing="false" text="have an exit strategy" toggleGroup="$tg7" />
+			</children>
+		</VBox>
+	</center>
+	<padding>
+		<Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+	</padding>
+</BorderPane>
