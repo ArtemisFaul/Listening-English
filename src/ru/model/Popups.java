@@ -6,10 +6,14 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Popup;
 import ru.Main;
+import ru.controller.PopupController;
 
 public class Popups {
 
-	public Popup popup = new Popup();
+	public Popup popup;
+	public static int X;
+	public static int Y;
+	public static PopupController popupController;
 	
 	private AnchorPane anchorPane;
 	
@@ -20,6 +24,8 @@ public class Popups {
 	public Popup getPopup() {
 		return popup;
 	}
+	
+	
 	/*
 	public void web(){
 		WebView wV = new WebView();
@@ -53,7 +59,9 @@ public class Popups {
 	}
 */
 	public void setPopup() {
+		popup = new Popup();
 		System.out.println(this.toString() + " iniz");
+		System.out.println(popup.toString() + " iniz1");
 		try {
 			anchorPane = new AnchorPane((AnchorPane)FXMLLoader.load(getClass().getResource("/ru/view/Popup.fxml")));
 			popup.getContent().addAll(anchorPane);
@@ -61,10 +69,9 @@ public class Popups {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		//System.out.println(AP.toString() + " Poppane loaded");
 		popup.setAutoHide(true);
-		//popup.getContent().addAll(borderPane);
 		popup.show(Main.primaryStage);
+		popupController.setGlassBackground((int) popup.getX(),(int) popup.getY());
 	}
 
 	public Popups() {

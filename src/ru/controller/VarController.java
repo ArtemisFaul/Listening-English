@@ -5,6 +5,7 @@ import java.util.ResourceBundle;
 
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.Cursor;
 import javafx.scene.control.Label;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.ToggleGroup;
@@ -33,7 +34,9 @@ public class VarController implements Initializable {
 
 	@FXML
 	public void setDragDetected(MouseEvent event) {
+		
 		dragLabel = ((Label) event.getSource());
+		dragLabel.setCursor(Cursor.CLOSED_HAND);
 		Dragboard db = ((Label) event.getSource()).startDragAndDrop(TransferMode.MOVE);
 		db.setDragView(((Label) event.getSource()).snapshot(null, null));
 		ClipboardContent cc = new ClipboardContent();
@@ -55,6 +58,7 @@ public class VarController implements Initializable {
 
 	@FXML
 	public void setDragDropped(DragEvent event) {
+		dragLabel.setCursor(Cursor.HAND);
 		Dragboard db = event.getDragboard();
 		dragDrop.getChildren().remove(dragDrop.getChildren().indexOf(dragLabel));
 		dragDrop.getChildren().add(dragDrop.getChildren().indexOf((Label) event.getSource()), dragLabel);

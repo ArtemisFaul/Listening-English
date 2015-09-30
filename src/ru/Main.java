@@ -17,11 +17,13 @@ import javafx.scene.text.Font;
 import javafx.stage.Stage;
 import ru.controller.ScreensController;
 import ru.model.Charters;
+import ru.model.Popups;
 
 public class Main extends Application {
 	public static ArrayList<Charters> genEnglish = new ArrayList<Charters>();
 	public static ArrayList<Charters> proEnglish = new ArrayList<Charters>();
 	public static ArrayList<Charters> busEnglish = new ArrayList<Charters>();
+	public static Popups popup = new Popups();
 	public static Stage primaryStage;
 	public static String screen1ID = "Main";
 	public static String screen1File = "/ru/view/MainController.fxml";
@@ -83,7 +85,7 @@ public class Main extends Application {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		System.out.println(charter+" chapter parsed.");
+		System.out.println(charter + " chapter parsed.");
 		return exAR;
 	}
 

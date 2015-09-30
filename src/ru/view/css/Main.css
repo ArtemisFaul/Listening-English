@@ -26,8 +26,6 @@
 }
 
 #settingButton:hover {
-	/*-fx-translate-y: 0.5;
-	-fx-translate-x: 0.5;*/ 
 	-fx-opacity: 0.7;
 }
 

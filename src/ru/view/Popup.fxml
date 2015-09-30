@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
+<?import javafx.scene.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.scene.paint.*?>
 <?import javafx.scene.media.*?>
@@ -10,10 +12,20 @@
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.layout.BorderPane?>
 
-<AnchorPane style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.controller.PopupController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="500.0" prefWidth="745.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.controller.PopupController">
    <children>
-      <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#8686868f" height="390" stroke="#00000093" strokeType="INSIDE" width="600.0" />
-      <AnchorPane fx:id="aP" maxHeight="390" maxWidth="580.0" prefHeight="390" prefWidth="580.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
-      <Button fx:id="button" mnemonicParsing="false" onAction="#close" text="Button" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0" />
+      <ImageView fx:id="popupBackground" fitHeight="500.0" fitWidth="745.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Rectangle fill="WHITE" height="500.0" opacity="0.8" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.1" width="745.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Text lineSpacing="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Guidelines" AnchorPane.leftAnchor="45.0" AnchorPane.topAnchor="20.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <ImageView id="close_button" fitHeight="24.0" fitWidth="24.0" onMouseClicked="#close" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="17.0">
+         <image>
+            <Image url="ru/res/image/close_button.png" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="aP" maxHeight="390" maxWidth="580.0" prefHeight="390" prefWidth="580.0" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="45.0" AnchorPane.rightAnchor="45.0" AnchorPane.topAnchor="45.0" />
    </children>
 </AnchorPane>

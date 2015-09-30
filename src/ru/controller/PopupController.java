@@ -1,56 +1,54 @@
 package ru.controller;
 
-
+import java.awt.AWTException;
+import java.awt.Rectangle;
+import java.awt.Robot;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+import javafx.embed.swing.SwingFXUtils;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
+import javafx.scene.effect.BoxBlur;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.media.MediaPlayer;
-import javafx.stage.Popup;
+import ru.Main;
+import ru.model.Popups;
 
-public class PopupController implements Initializable{
-	public Popup popup = new Popup();
-
-	
+public class PopupController implements Initializable {
+	@FXML
+	private ImageView popupBackground;
 	@FXML
 	private AnchorPane aP;
-	@FXML
-	private Button button;
-	static String f;
-	private static String type;
-	
-    MediaPlayer mediaPlayer;
+
+	MediaPlayer mediaPlayer;
 	BorderPane bp = new BorderPane();
-	
+
 	@FXML
-	public void close(){
-		MainController.popup.closePopup();
+	public void close() {
+		Main.popup.closePopup();
+		
 	}
 	
-	
-	
-
-	
+	public void setGlassBackground(int X,int Y){
+		try {
+			Robot robot = new Robot();
+			java.awt.image.BufferedImage image = robot.createScreenCapture(new Rectangle(X+10,Y+10, (int) popupBackground.getFitWidth(), (int) popupBackground.getFitHeight()));
+			popupBackground.setImage(SwingFXUtils.toFXImage(image, null));
+		} catch (AWTException e) {
+			System.out.println("The robot of doom strikes!");
+			e.printStackTrace();
+		}
+	}
 
 
 
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
-	//aP.setEffect(new BoxBlur(60, 60, 3));
-		
+		popupBackground.setEffect(new BoxBlur(10, 10, 3));
+		Popups.popupController = this;
 	}
 
-
-
-
-	
-
-
-
-
-	
 }

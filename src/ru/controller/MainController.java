@@ -13,7 +13,6 @@ import ru.model.ControlledScreen;
 import ru.model.Popups;
 
 public class MainController implements Initializable, ControlledScreen {
-	static public Popups popup = new Popups();
 	ScreensController myController;
 	static String _name;
 	@FXML
@@ -76,7 +75,7 @@ public class MainController implements Initializable, ControlledScreen {
 
 	@FXML
 	public void guidelinesButton() {
-		popup.setPopup();
+		Main.popup.setPopup();
 	}
 	
 	
