@@ -13,7 +13,6 @@ import org.w3c.dom.NodeList;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
-import javafx.scene.text.Font;
 import javafx.stage.Stage;
 import ru.controller.ScreensController;
 import ru.model.Charters;
@@ -35,26 +34,7 @@ public class Main extends Application {
 	public static String screen5File = "/ru/view/Login.fxml";
 	public static String screen6ID = "SettingsController";
 	public static String screen6File = "/ru/view/Settings.fxml";
-
-	@Override
-	public void start(Stage primaryStage) {
-		genEnglish = (parse("GenEnglish"));
-		proEnglish = (parse("ProEnglish"));
-		busEnglish = (parse("BusEnglish"));
-		Main.primaryStage = primaryStage;
-		primaryStage.setTitle("Listening English");
-		primaryStage.centerOnScreen();
-		primaryStage.setMinHeight(626);
-		primaryStage.setMinWidth(840);
-		primaryStage.setResizable(false);
-		primaryStage.setMaximized(false);
-		ScreensController mainContainer = new ScreensController();
-		mainContainer.setScreen(Main.screen1ID, Main.screen1File);
-		Scene scene = new Scene(mainContainer);
-		primaryStage.setScene(scene);
-		primaryStage.show();
-	}
-
+	
 	public ArrayList<Charters> parse(String charter) {
 		ArrayList<Charters> exAR = new ArrayList<Charters>();
 		try {
@@ -87,6 +67,25 @@ public class Main extends Application {
 		}
 		System.out.println(charter + " chapter parsed.");
 		return exAR;
+	}
+	
+	@Override
+	public void start(Stage primaryStage) {
+		genEnglish = (parse("GenEnglish"));
+		proEnglish = (parse("ProEnglish"));
+		busEnglish = (parse("BusEnglish"));
+		Main.primaryStage = primaryStage;
+		primaryStage.setTitle("Listening English");
+		primaryStage.centerOnScreen();
+		primaryStage.setMinHeight(626);
+		primaryStage.setMinWidth(840);
+		primaryStage.setResizable(false);
+		primaryStage.setMaximized(false);
+		ScreensController mainContainer = new ScreensController();
+		mainContainer.setScreen(Main.screen1ID, Main.screen1File);
+		Scene scene = new Scene(mainContainer);
+		primaryStage.setScene(scene);
+		primaryStage.show();
 	}
 
 	public static void main(String[] args) {

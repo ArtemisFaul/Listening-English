@@ -14,6 +14,8 @@ import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.media.MediaPlayer;
+import javafx.scene.web.WebEngine;
+import javafx.scene.web.WebView;
 import ru.Main;
 import ru.model.Popups;
 
@@ -30,6 +32,17 @@ public class PopupController implements Initializable {
 	public void close() {
 		Main.popup.closePopup();
 		
+	}
+	
+	public void web(){
+		WebView wV = new WebView();
+		WebEngine webEngine = wV.getEngine();
+		webEngine.load(PopupController.class.getResource("/ru/res/text/index.html").toExternalForm());
+		AnchorPane.setTopAnchor(wV, 0.0);
+		AnchorPane.setLeftAnchor(wV, 0.0);
+		AnchorPane.setRightAnchor(wV, 0.0);
+		AnchorPane.setBottomAnchor(wV, 0.0);
+		aP.getChildren().add(wV);
 	}
 	
 	public void setGlassBackground(int X,int Y){
@@ -49,6 +62,7 @@ public class PopupController implements Initializable {
 	public void initialize(URL location, ResourceBundle resources) {
 		popupBackground.setEffect(new BoxBlur(10, 10, 3));
 		Popups.popupController = this;
+		web();
 	}
 
 }

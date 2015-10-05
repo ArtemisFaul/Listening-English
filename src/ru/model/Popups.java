@@ -27,16 +27,6 @@ public class Popups {
 	
 	
 	/*
-	public void web(){
-		WebView wV = new WebView();
-		WebEngine webEngine = wV.getEngine();
-		webEngine.load(PopupController.class.getResource(f).toExternalForm());
-		AnchorPane.setTopAnchor(wV, 0.0);
-		AnchorPane.setLeftAnchor(wV, 0.0);
-		AnchorPane.setRightAnchor(wV, 0.0);
-		AnchorPane.setBottomAnchor(wV, 0.0);
-		anchorPane.getChildren().add(wV);
-	}
 	
 	public void video(){
 		mediaPlayer = new MediaPlayer(new Media(getClass()
@@ -74,7 +64,5 @@ public class Popups {
 		popupController.setGlassBackground((int) popup.getX(),(int) popup.getY());
 	}
 
-	public Popups() {
-		
-	}
+	
 }
