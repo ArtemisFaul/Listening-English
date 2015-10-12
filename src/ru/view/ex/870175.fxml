@@ -8,9 +8,9 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="300.0" minWidth="-Infinity" prefWidth="839.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.controller.VarController">
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="300.0" minWidth="-Infinity" prefWidth="839.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.controller.VarController">
 	<center>
-		<VBox maxHeight="1.7976931348623157E308" maxWidth="-Infinity" prefWidth="810.0" spacing="10.0" BorderPane.alignment="CENTER">
+		<VBox fx:id="vdolod" maxHeight="1.7976931348623157E308" maxWidth="-Infinity" prefWidth="810.0" spacing="10.0" BorderPane.alignment="CENTER">
 			<children>
 				<TextFlow maxWidth="1.7976931348623157E308">
 					<children>
@@ -44,7 +44,7 @@
 				<fx:define>
 					<ToggleGroup fx:id="tg1" />
 				</fx:define>
-				<RadioButton mnemonicParsing="false" text="a pay scale">
+				<RadioButton selected="true" mnemonicParsing="false" text="a pay scale">
                <toggleGroup>
                   <ToggleGroup fx:id="tg1" />
                </toggleGroup></RadioButton>
@@ -76,10 +76,7 @@
 				<fx:define>
 					<ToggleGroup fx:id="tg2" />
 				</fx:define>
-				<RadioButton mnemonicParsing="false" text="as an experienced employee">
-               <toggleGroup>
-                  <ToggleGroup fx:id="tg2" />
-               </toggleGroup></RadioButton>
+				<RadioButton selected="true" mnemonicParsing="false" text="as an experienced employee" toggleGroup="$tg2"/>
 				<RadioButton mnemonicParsing="false" text="as an investment" toggleGroup="$tg2" />
 				<TextFlow maxWidth="1.7976931348623157E308">
 					<children>
@@ -113,7 +110,7 @@
 				<fx:define>
 					<ToggleGroup fx:id="tg3" />
 				</fx:define>
-				<RadioButton mnemonicParsing="false" text="a little less">
+				<RadioButton selected="true" mnemonicParsing="false" text="a little less">
                <toggleGroup>
                   <ToggleGroup fx:id="tg3" />
                </toggleGroup></RadioButton>
@@ -150,7 +147,7 @@
 				<fx:define>
 					<ToggleGroup fx:id="tg4" />
 				</fx:define>
-				<RadioButton mnemonicParsing="false" text="a higher level of salary">
+				<RadioButton selected="true" mnemonicParsing="false" text="a higher level of salary">
                <toggleGroup>
                   <ToggleGroup fx:id="tg4" />
                </toggleGroup></RadioButton>
@@ -187,7 +184,7 @@
 				<fx:define>
 					<ToggleGroup fx:id="tg5" />
 				</fx:define>
-				<RadioButton mnemonicParsing="false" text="is quite enough">
+				<RadioButton selected="true" mnemonicParsing="false" text="is quite enough">
                <toggleGroup>
                   <ToggleGroup fx:id="tg5" />
                </toggleGroup></RadioButton>
@@ -219,7 +216,7 @@
 				<fx:define>
 					<ToggleGroup fx:id="tg6" />
 				</fx:define>
-				<RadioButton mnemonicParsing="false" text="in a week">
+				<RadioButton selected="true" mnemonicParsing="false" text="in a week">
                <toggleGroup>
                   <ToggleGroup fx:id="tg6" />
                </toggleGroup></RadioButton>
@@ -251,7 +248,7 @@
 				<fx:define>
 					<ToggleGroup fx:id="tg7" />
 				</fx:define>
-			<RadioButton mnemonicParsing="false" text="to come in terms with Sarah">
+			<RadioButton selected="true" mnemonicParsing="false" text="to come in terms with Sarah">
                <toggleGroup>
                   <ToggleGroup fx:id="tg7" />
                </toggleGroup></RadioButton>

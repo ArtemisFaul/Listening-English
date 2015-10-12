@@ -1,15 +1,20 @@
 package ru.controller;
 
+import java.awt.Checkbox;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ScrollPane;
+import javafx.scene.control.TextField;
+import javafx.scene.input.KeyEvent;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 import javafx.scene.media.MediaPlayer.Status;
@@ -22,10 +27,9 @@ public class ExerciseController implements Initializable, ControlledScreen {
 	ScreensController myController;
 	private static Charters item;
 	@FXML
-	private Button vizKey;
-	@FXML
 	private Text nameEx;
-	
+	@FXML
+	private Button easterEgg;
 	@FXML
 	private Label questEx;
 	@FXML
@@ -33,10 +37,15 @@ public class ExerciseController implements Initializable, ControlledScreen {
 	@FXML
 	private Label exKey;
 	@FXML
+	private Label message;
+	@FXML
 	private Button viewAudioscriptButton;
 	@FXML
 	private ScrollPane SP;
 	private Button playAudioButton;
+	private FXMLLoader myLoader = null;
+	private VarController varController;
+	private int count;
 
 
 	public MediaPlayer mediaPlayer;
@@ -48,14 +57,31 @@ public class ExerciseController implements Initializable, ControlledScreen {
 
 	@FXML
 	public void viewAudioscript() {
-		
+			Main.popup.setAudioskript(item.getAudioscriptFile().toString());		
+	}
+	@FXML
+	public void startEaster(){
+		varController.setEasterEgg();
+	}
+	
+	@FXML
+	public void keyAction(KeyEvent keyEvent) {
+		switch (keyEvent.getCode()) {
+		case F4:
+			easterEgg.setVisible(true);
+			break;
+		}
 	}
 
 	@FXML
 	public void playAudio() {
-
-		Status stat = mediaPlayer.getStatus();
+		switch (item.getType()) {
+		case "Video":
+			Main.popup.setVideo(item.getExAttachFile().toString());	
+			break;
+		case "Audio":
 		try {
+			Status stat = mediaPlayer.getStatus();
 			if (stat == Status.PLAYING) {
 			mediaPlayer.stop();
 			playAudioButton.setText("Play");
@@ -63,18 +89,44 @@ public class ExerciseController implements Initializable, ControlledScreen {
 			mediaPlayer.play();
 			playAudioButton.setText("Stop");
 		}
-			
 		} catch (Exception e) {
-			// TODO: handle exception
+		}
+		System.out.println(mediaPlayer.getMedia().getSource().toString());
+		break;
+		}
+	}
+	
+	@FXML
+	private void checkButtonClick(){
+		if ((count < 2) & (varController.checkExercise() != true)){
+		message.setText("Попробуйте еще раз. Это " + count+" попытка.");
+		count++;
+		}else{
+			message.setText("Просмотрите ответ и аудиоскрипт");
+			if (varController.checkExercise()){
+				message.setText("Вы молодец");
+			}
+			startEaster();
+			viewAudioscriptButton.setVisible(true);
+			if (item.getType() == "Audio") {
+				Status stat = mediaPlayer.getStatus();
+				try {
+					if (stat == Status.PLAYING) {
+					mediaPlayer.stop();
+					playAudioButton.setText("Play");
+				} 
+				} catch (Exception e) {
+					// TODO: handle exception
+				}
+				if (item.getKeyAttachFile() != ""){
+				mediaPlayer =  new MediaPlayer(new Media(getClass().getResource(item.getKeyAttachFile()).toString()));
+				}
+				System.out.println(mediaPlayer.getMedia().getSource().toString());
+			}
 		}
 		
-
 	}
-
-	@FXML
-	public void guidelinesButton() {
-		
-	}
+	
 
 	@FXML
 	public void backButton() {
@@ -95,7 +147,6 @@ public class ExerciseController implements Initializable, ControlledScreen {
 
 	public void load() {
 		nameEx.setText(item.getName());
-		//modelName.setText(item.getModelName());
 		questIntro.setText(item.getIntro());
 		questEx.setText(item.getExercise());
 	}
@@ -103,18 +154,30 @@ public class ExerciseController implements Initializable, ControlledScreen {
 	public static void setItem(Charters item) {
 		ExerciseController.item = item;
 	}
-
+	
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
 		System.out.println(this.toString() + " iniz");
 		load();
-		mediaPlayer = new MediaPlayer(new Media(getClass().getResource(item.getExAttachFile()).toString()));
+		count = 0;
+		switch (item.getType()) {
+		case "Video":
+			System.out.println("warning: Video content");
+			break;
+
+		case "Audio":
+			mediaPlayer = new MediaPlayer(new Media(getClass().getResource(item.getExAttachFile()).toString()));
+			System.out.println("warning: Audio content");
+			break;
+		}
 		try {
-			SP.setContent(FXMLLoader.load(PopupController.class.getResource(item.getVarFile().toString())));
+			myLoader = new FXMLLoader(getClass().getResource(item.getVarFile().toString()));
+			SP.setContent(myLoader.load());
+			varController = myLoader.getController();
+			varController.setExercise(item.getId());
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
 	}
 
 }

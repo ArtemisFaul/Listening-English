@@ -75,7 +75,7 @@ public class Main extends Application {
 		proEnglish = (parse("ProEnglish"));
 		busEnglish = (parse("BusEnglish"));
 		Main.primaryStage = primaryStage;
-		primaryStage.setTitle("Listening English");
+		primaryStage.setTitle("English Listening");
 		primaryStage.centerOnScreen();
 		primaryStage.setMinHeight(626);
 		primaryStage.setMinWidth(840);

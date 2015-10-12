@@ -7,16 +7,16 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<BorderPane fx:id="varMain" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="290.0" minWidth="-Infinity" prefWidth="835.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.controller.VarController">
+<BorderPane fx:id="varMain" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="290.0" minWidth="-Infinity" prefWidth="835.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.controller.VarController">
    <center>
-      <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" spacing="10.0" BorderPane.alignment="CENTER">
+      <VBox fx:id="vdolod" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" spacing="6.0" BorderPane.alignment="CENTER">
          <children>
             <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Speaker 1:">
                <font>
                   <Font size="14.0" />
                </font>
             </Text>
-            <TextField prefHeight="33.0">
+            <TextField prefHeight="25.0">
                <VBox.margin>
                   <Insets />
                </VBox.margin></TextField>
@@ -25,7 +25,7 @@
                   <Font size="14.0" />
                </font>
             </Text>
-            <TextField layoutX="10.0" layoutY="30.0" prefHeight="33.0">
+            <TextField layoutX="10.0" layoutY="30.0" prefHeight="25.0">
                <VBox.margin>
                   <Insets />
                </VBox.margin></TextField>
@@ -34,7 +34,7 @@
                   <Font size="14.0" />
                </font>
             </Text>
-            <TextField layoutX="10.0" layoutY="80.0" prefHeight="33.0">
+            <TextField layoutX="10.0" layoutY="80.0" prefHeight="25.0">
                <VBox.margin>
                   <Insets />
                </VBox.margin></TextField>
@@ -43,10 +43,16 @@
                   <Font size="14.0" />
                </font>
             </Text>
-            <TextField layoutX="10.0" layoutY="130.0" prefHeight="33.0">
+            <TextField layoutX="10.0" layoutY="130.0" prefHeight="25.0">
                <VBox.margin>
                   <Insets />
                </VBox.margin></TextField>
+            <Text layoutX="10.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Speaker 5:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <TextField layoutX="10.0" layoutY="247.0" prefHeight="25.0" />
          </children>
       </VBox>
    </center>

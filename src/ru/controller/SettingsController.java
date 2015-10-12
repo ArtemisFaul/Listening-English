@@ -5,6 +5,8 @@ import java.util.ResourceBundle;
 
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
 import ru.Main;
 import ru.model.ControlledScreen;
 
@@ -34,6 +36,12 @@ public class SettingsController  implements Initializable, ControlledScreen {
 		// TODO Auto-generated method stub
 		myController = screenParent;
 		
+	}
+	@FXML
+	public void backButtonKeyboard(KeyEvent keyEvent) {
+		if (keyEvent.getCode() == KeyCode.BACK_SPACE) {
+			backButton();
+		}
 	}
 
 }

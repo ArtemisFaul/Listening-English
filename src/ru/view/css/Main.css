@@ -1,5 +1,9 @@
 /* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
-
+#exerciseNameItem:selected{
+	-fx-background-image: url("/ru/res/image/start_button.png");
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: right center;  
+}
 
 #back:hover {
 	-fx-opacity: 0.7;
@@ -17,6 +21,22 @@
 	-fx-background-repeat: no-repeat ;
 }
 
+#mainButton:hover{
+	-fx-opacity: 1;
+}
+
+#dragLabel{
+	-fx-background-color: #FAFAFA;
+	-fx-border-color: #E0E0E0;
+	-fx-border-radius: 5;
+	-fx-cursor: hand;
+}
+
+#dragLabel:hover{
+	-fx-border-color: #9E9E9E;
+	-fx-background-color: #BDBDBD;
+}
+
 #exerciseName {
 	-fx-font-size: 14;
 	-fx-font-family: "Segoe UI";
@@ -31,4 +51,12 @@
 
 #name:hover {	
 	-fx-opacity: 0.7;
+}
+
+.scroll-pane > .viewport {
+   -fx-background-color: white;
+}
+
+.scroll-pane {
+   -fx-background-color: white;
 }

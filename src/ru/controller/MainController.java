@@ -75,7 +75,7 @@ public class MainController implements Initializable, ControlledScreen {
 
 	@FXML
 	public void guidelinesButton() {
-		Main.popup.setPopup();
+		Main.popup.setGuideline();
 	}
 	
 	

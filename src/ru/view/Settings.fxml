@@ -50,7 +50,7 @@
             <HBox />
             <HBox layoutX="10.0" layoutY="298.0">
                <children>
-                  <Text  text="Громкость аудирования">
+                  <Text text="Громкость аудирования">
                      <font>
                         <Font size="18.0" />
                      </font>

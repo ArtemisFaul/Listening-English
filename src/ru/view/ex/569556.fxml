@@ -8,130 +8,194 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="300.0" minWidth="-Infinity" prefWidth="835.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.controller.VarController">
-   <center>
-      <HBox>
-         <children>
-            <VBox maxWidth="1.7976931348623157E308" spacing="10.0" HBox.hgrow="ALWAYS">
-               <children>
-                  <HBox spacing="8.0">
-                     <children>
-                        <CheckBox mnemonicParsing="false">
-                           <HBox.margin>
-                              <Insets />
-                           </HBox.margin>
-                        </CheckBox>
-                        <Label lineSpacing="2.0" maxWidth="1.7976931348623157E308" minHeight="-Infinity" text="1. Stores will use software to cut the amount of shoplifting by customers." wrapText="true">
-                           <font>
-                              <Font size="14.6" />
-                           </font>
-                        </Label>
-                     </children>
-                  </HBox>
-                  <HBox spacing="8.0">
-                     <children>
-                        <CheckBox mnemonicParsing="false" />
-                        <Label alignment="TOP_LEFT" lineSpacing="2.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" text="2. The software will monitor what products you look at." wrapText="true">
-                           <font>
-                              <Font size="14.6" />
-                           </font>
-                        </Label>
-                     </children>
-                  </HBox>
-                  <HBox spacing="8.0">
-                     <children>
-                        <CheckBox mnemonicParsing="false" />
-                        <Label alignment="TOP_LEFT" lineSpacing="2.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" text="3. Researchers say the software could be in wide use by 2020." wrapText="true">
-                           <font>
-                              <Font size="14.6" />
-                           </font>
-                        </Label>
-                     </children>
-                  </HBox>
-                  <HBox spacing="8.0">
-                     <children>
-                        <CheckBox mnemonicParsing="false" />
-                        <Label alignment="TOP_LEFT" lineSpacing="2.0" maxWidth="1.7976931348623157E308" minHeight="-Infinity" text="4. Information from your eyes will alert staff when you will pay for goods." wrapText="true">
-                           <font>
-                              <Font size="14.6" />
-                           </font>
-                        </Label>
-                     </children>
-                  </HBox>
-                  <HBox spacing="8.0">
-                     <children>
-                        <CheckBox mnemonicParsing="false" />
-                        <Label alignment="TOP_LEFT" lineSpacing="2.0" maxWidth="1.7976931348623157E308" minHeight="-Infinity" text="5. Eye-tracking could help reduce the number of cyclists hit by cars." wrapText="true">
-                           <font>
-                              <Font size="14.6" />
-                           </font>
-                        </Label>
-                     </children>
-                  </HBox>
-                  <HBox spacing="8.0">
-                     <children>
-                        <CheckBox mnemonicParsing="false" />
-                        <Label alignment="TOP_LEFT" lineSpacing="2.0" maxWidth="1.7976931348623157E308" minHeight="-Infinity" text="6. Software now lets the eyes do things the computer mouse does." wrapText="true">
-                           <font>
-                              <Font size="14.6" />
-                           </font>
-                        </Label>
-                     </children>
-                  </HBox>
-                  <HBox spacing="8.0">
-                     <children>
-                        <CheckBox mnemonicParsing="false" />
-                        <Label alignment="TOP_LEFT" lineSpacing="2.0" maxWidth="1.7976931348623157E308" minHeight="-Infinity" text="7. The technology has not yet been put to use with disabled people." wrapText="true">
-                           <font>
-                              <Font size="14.6" />
-                           </font>
-                        </Label>
-                     </children>
-                  </HBox>
-                  <HBox spacing="8.0">
-                     <children>
-                        <CheckBox mnemonicParsing="false" />
-                        <Label alignment="TOP_LEFT" lineSpacing="2.0" maxWidth="1.7976931348623157E308" minHeight="-Infinity" text="8. A researcher suggested the software would not be that mainstream." wrapText="true">
-                           <font>
-                              <Font size="14.6" />
-                           </font>
-                        </Label>
-                     </children>
-                  </HBox>
-               </children>
-               <HBox.margin>
-                  <Insets bottom="10.0" left="10.0" right="10.0" />
-               </HBox.margin>
-            </VBox>
-         </children>
-         <BorderPane.margin>
-            <Insets bottom="5.0" />
-         </BorderPane.margin>
-      </HBox>
-   </center>
-   <padding>
-      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
-   </padding>
-   <top>
-      <HBox maxWidth="1.7976931348623157E308" BorderPane.alignment="CENTER">
-         <children>
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="True?" />
-         </children>
-         <BorderPane.margin>
-            <Insets bottom="15.0" />
-         </BorderPane.margin>
-      </HBox>
-   </top>
-   <bottom>
-      <VBox maxWidth="-Infinity" prefWidth="810.0" spacing="5.0">
-         <children>
-            <Label text="The information includes *** main areas of using the new technology." BorderPane.alignment="TOP_LEFT">
-               <font>
-                  <Font size="14.6" />
-               </font>
-            </Label>
-            <TextField />
-         </children>
-      </VBox>
-   </bottom>
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308"
+	minHeight="300.0" minWidth="-Infinity" prefWidth="835.0" style="-fx-background-color: white;"
+	xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="ru.controller.VarController">
+	<center>
+		<HBox>
+			<children>
+				<VBox maxWidth="1.7976931348623157E308" spacing="10.0"
+					HBox.hgrow="ALWAYS">
+					<children>
+						<Label lineSpacing="2.0" maxWidth="1.7976931348623157E308"
+							minHeight="-Infinity"
+							text="1. Stores will use software to cut the amount of shoplifting by customers."
+							wrapText="true">
+							<font>
+								<Font size="14.6" />
+							</font>
+						</Label>
+						<fx:define>
+							<ToggleGroup fx:id="tg1" />
+						</fx:define>
+						<HBox spacing="8.0">
+							<children>
+								<RadioButton mnemonicParsing="false" selected="true"
+									text="False" toggleGroup="$tg1" />
+								<RadioButton mnemonicParsing="false" text="True"
+									toggleGroup="$tg1" />
+
+							</children>
+						</HBox>
+						<Label alignment="TOP_LEFT" lineSpacing="2.0"
+							maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308"
+							minHeight="-Infinity"
+							text="2. The software will monitor what products you look at."
+							wrapText="true">
+							<font>
+								<Font size="14.6" />
+							</font>
+						</Label>
+						<fx:define>
+							<ToggleGroup fx:id="tg2" />
+						</fx:define>
+						<HBox spacing="8.0">
+							<children>
+								<RadioButton mnemonicParsing="false" selected="true"
+									text="False" toggleGroup="$tg2" />
+								<RadioButton mnemonicParsing="false" text="True"
+									toggleGroup="$tg2" />
+							</children>
+						</HBox>
+						<Label alignment="TOP_LEFT" lineSpacing="2.0"
+							maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308"
+							minHeight="-Infinity"
+							text="3. Researchers say the software could be in wide use by 2020."
+							wrapText="true">
+							<font>
+								<Font size="14.6" />
+							</font>
+						</Label>
+						<fx:define>
+							<ToggleGroup fx:id="tg3" />
+						</fx:define>
+						<HBox spacing="8.0">
+							<children>
+								<RadioButton mnemonicParsing="false" selected="true"
+									text="False" toggleGroup="$tg3" />
+								<RadioButton mnemonicParsing="false" text="True"
+									toggleGroup="$tg3" />
+							</children>
+						</HBox>
+						<Label alignment="TOP_LEFT" lineSpacing="2.0"
+							maxWidth="1.7976931348623157E308" minHeight="-Infinity"
+							text="4. Information from your eyes will alert staff when you will pay for goods."
+							wrapText="true">
+							<font>
+								<Font size="14.6" />
+							</font>
+						</Label>
+						<fx:define>
+							<ToggleGroup fx:id="tg4" />
+						</fx:define>
+						<HBox spacing="8.0">
+							<children>
+								<RadioButton mnemonicParsing="false" selected="true"
+									text="False" toggleGroup="$tg4" />
+								<RadioButton mnemonicParsing="false" text="True"
+									toggleGroup="$tg4" />
+							</children>
+						</HBox>
+						<Label alignment="TOP_LEFT" lineSpacing="2.0"
+							maxWidth="1.7976931348623157E308" minHeight="-Infinity"
+							text="5. Eye-tracking could help reduce the number of cyclists hit by cars."
+							wrapText="true">
+							<font>
+								<Font size="14.6" />
+							</font>
+						</Label>
+						<fx:define>
+							<ToggleGroup fx:id="tg5" />
+						</fx:define>
+						<HBox spacing="8.0">
+							<children>
+								<RadioButton mnemonicParsing="false" selected="true"
+									text="False" toggleGroup="$tg5" />
+								<RadioButton mnemonicParsing="false" text="True"
+									toggleGroup="$tg5" />
+							</children>
+						</HBox>
+						<Label alignment="TOP_LEFT" lineSpacing="2.0"
+							maxWidth="1.7976931348623157E308" minHeight="-Infinity"
+							text="6. Software now lets the eyes do things the computer mouse does."
+							wrapText="true">
+							<font>
+								<Font size="14.6" />
+							</font>
+						</Label>
+						<fx:define>
+							<ToggleGroup fx:id="tg6" />
+						</fx:define>
+						<HBox spacing="8.0">
+							<children>
+								<RadioButton mnemonicParsing="false" selected="true"
+									text="False" toggleGroup="$tg6" />
+								<RadioButton mnemonicParsing="false" text="True"
+									toggleGroup="$tg6" />
+							</children>
+						</HBox>
+						<Label alignment="TOP_LEFT" lineSpacing="2.0"
+							maxWidth="1.7976931348623157E308" minHeight="-Infinity"
+							text="7. The technology has not yet been put to use with disabled people."
+							wrapText="true">
+							<font>
+								<Font size="14.6" />
+							</font>
+						</Label>
+						<fx:define>
+							<ToggleGroup fx:id="tg7" />
+						</fx:define>
+						<HBox spacing="8.0">
+							<children>
+								<RadioButton mnemonicParsing="false" selected="true"
+									text="False" toggleGroup="$tg7" />
+								<RadioButton mnemonicParsing="false" text="True"
+									toggleGroup="$tg7" />
+							</children>
+						</HBox>
+						<Label alignment="TOP_LEFT" lineSpacing="2.0"
+							maxWidth="1.7976931348623157E308" minHeight="-Infinity"
+							text="8. A researcher suggested the software would not be that mainstream."
+							wrapText="true">
+							<font>
+								<Font size="14.6" />
+							</font>
+						</Label>
+						<fx:define>
+							<ToggleGroup fx:id="tg8" />
+						</fx:define>
+						<HBox spacing="8.0">
+							<children>
+								<RadioButton mnemonicParsing="false" selected="true"
+									text="False" toggleGroup="$tg8" />
+								<RadioButton mnemonicParsing="false" text="True"
+									toggleGroup="$tg8" />
+							</children>
+						</HBox>
+					</children>
+				</VBox>
+			</children>
+			<BorderPane.margin>
+				<Insets bottom="5.0" />
+			</BorderPane.margin>
+		</HBox>
+	</center>
+	<padding>
+		<Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+	</padding>
+	<bottom>
+		<VBox maxWidth="-Infinity" prefWidth="810.0" spacing="5.0">
+			<children>
+				<Label
+					text="The information includes *** main areas of using the new technology."
+					BorderPane.alignment="TOP_LEFT">
+					<font>
+						<Font size="14.6" />
+					</font>
+				</Label>
+				<TextField />
+			</children>
+		</VBox>
+	</bottom>
 </BorderPane>

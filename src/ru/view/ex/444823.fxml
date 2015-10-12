@@ -7,43 +7,61 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="290.0" minWidth="-Infinity" prefWidth="835.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.controller.VarController">
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="290.0" minWidth="-Infinity" prefWidth="835.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.controller.VarController">
    <center>
-      <VBox fx:id="dragDrop" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" spacing="26.0" BorderPane.alignment="CENTER">
+      <VBox fx:id="dragDrop" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" spacing="20.0" BorderPane.alignment="CENTER">
          <children>
-            <Label maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" text="A. The number of viruses are being discovered every year." wrapText="true">
+            <Label id="dragLabel" maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" text="A. The number of viruses are being discovered every year." wrapText="true">
                <font>
                   <Font size="16.0" />
                </font>
+               <padding>
+                  <Insets bottom="3.0" left="5.0" right="5.0" top="3.0" />
+               </padding>
             </Label>
-            <Label maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" text="B. The corporations aren’t doing enough for their security." wrapText="true">
+            <Label id="dragLabel" maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" text="B. The corporations aren’t doing enough for their security." wrapText="true">
                <font>
                   <Font size="16.0" />
                </font>
+               <padding>
+                  <Insets bottom="3.0" left="5.0" right="5.0" top="3.0" />
+               </padding>
             </Label>
-            <Label maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" text="C. People do a lot of things online." wrapText="true">
+            <Label id="dragLabel" maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" text="C. People do a lot of things online." wrapText="true">
                <font>
                   <Font size="16.0" />
                </font>
+               <padding>
+                  <Insets bottom="3.0" left="5.0" right="5.0" top="3.0" />
+               </padding>
             </Label>
-            <Label maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" text="D. Robert Schifreen names those he hacked." wrapText="true">
+            <Label id="dragLabel" maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" text="D. Robert Schifreen names those he hacked." wrapText="true">
                <font>
                   <Font size="16.0" />
                </font>
+               <padding>
+                  <Insets bottom="3.0" left="5.0" right="5.0" top="3.0" />
+               </padding>
             </Label>
-            <Label maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" text="E. The question you have to ask yourself about hackers." wrapText="true">
+            <Label id="dragLabel" maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" text="E. The question you have to ask yourself about hackers." wrapText="true">
                <font>
                   <Font size="16.0" />
                </font>
+               <padding>
+                  <Insets bottom="3.0" left="5.0" right="5.0" top="3.0" />
+               </padding>
             </Label>
-            <Label maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" text="F. Malware and phishing attacks." wrapText="true">
+            <Label id="dragLabel" maxWidth="1.7976931348623157E308" onDragDetected="#setDragDetected" onDragDropped="#setDragDropped" onDragOver="#setDragOver" text="F. Malware and phishing attacks." wrapText="true">
                <font>
                   <Font size="16.0" />
                </font>
+               <padding>
+                  <Insets bottom="3.0" left="5.0" right="5.0" top="3.0" />
+               </padding>
             </Label>
          </children>
          <BorderPane.margin>
-            <Insets top="10.0" />
+            <Insets right="10.0" />
          </BorderPane.margin>
       </VBox>
    </center>

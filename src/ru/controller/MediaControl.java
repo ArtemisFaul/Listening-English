@@ -7,6 +7,7 @@ import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.layout.Priority;
 import javafx.scene.layout.Region;
+import javafx.scene.layout.VBox;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.control.Button;
@@ -24,7 +25,7 @@ public class MediaControl extends BorderPane {
 
 	private MediaPlayer mp;
 	private MediaView mediaView;
-	private final boolean repeat = false;
+	private final boolean repeat = true;
 	private boolean stopRequested = false;
 	private boolean atEndOfMedia = false;
 	private Duration duration;
@@ -38,15 +39,16 @@ public class MediaControl extends BorderPane {
 		setStyle("-fx-background-color: #bfc2c7;");
 		mediaView = new MediaView(mp);
 
-		// mediaView.setFitHeight(440);
-		mediaView.setFitWidth(580);
-		Pane mvPane = new Pane() {
+		//mediaView.setFitHeight(500);
+		mediaView.setFitWidth(655);
+		HBox hbox = new HBox() {
 		};
-		// mvPane.setMaxHeight(440);
-		mvPane.setMaxWidth(580);
-		mvPane.getChildren().add(mediaView);
-		mvPane.setStyle("-fx-background-color: black;");
-		setCenter(mvPane);
+		hbox.setMaxHeight(400);
+		hbox.setMaxWidth(655);
+		hbox.getChildren().add(mediaView);
+		hbox.setStyle("-fx-background-color: black;");
+		hbox.setAlignment(Pos.CENTER);
+		setCenter(hbox);
 
 		mediaBar = new HBox();
 		mediaBar.setAlignment(Pos.CENTER);

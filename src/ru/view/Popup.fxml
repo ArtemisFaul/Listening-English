@@ -16,11 +16,12 @@
    <children>
       <ImageView fx:id="popupBackground" fitHeight="520.0" fitWidth="745.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
       <Rectangle fill="WHITE" height="520.0" opacity="0.8" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.1" width="745.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
-      <Text lineSpacing="20.0" text="Guidelines" AnchorPane.leftAnchor="45.0" AnchorPane.topAnchor="20.0">
+      <Text fx:id="popupTitleText" lineSpacing="20.0" AnchorPane.leftAnchor="45.0" AnchorPane.topAnchor="20.0">
          <font>
             <Font size="25.0" />
          </font>
       </Text>
+      <Region maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" onMouseClicked="#close" prefHeight="24.0" prefWidth="24.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="17.0" />
       <ImageView id="close_button" fitHeight="24.0" fitWidth="24.0" onMouseClicked="#close" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="17.0">
          <image>
             <Image url="ru/res/image/close_button.png" />

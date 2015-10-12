@@ -10,10 +10,9 @@ import ru.controller.PopupController;
 
 public class Popups {
 
+	
 	public Popup popup;
-	public static int X;
-	public static int Y;
-	public static PopupController popupController;
+	public PopupController popupController;
 	
 	private AnchorPane anchorPane;
 	
@@ -25,43 +24,47 @@ public class Popups {
 		return popup;
 	}
 	
-	
-	/*
-	
-	public void video(){
-		mediaPlayer = new MediaPlayer(new Media(getClass()
-					.getResource(f).toString()));
-        mediaPlayer.setAutoPlay(true);
-        MediaControl mediaControl = new MediaControl(mediaPlayer);
-       	AnchorPane.setTopAnchor(mediaControl, 0.0);
-		AnchorPane.setLeftAnchor(mediaControl, 0.0);
-		AnchorPane.setRightAnchor(mediaControl, 0.0);
-		AnchorPane.setBottomAnchor(mediaControl, 0.0);
-		aP.getChildren().add(mediaControl);		
+	public void setGuideline(){
+		popup.setAutoHide(true);
+		popupController.setPopupTitleText("Guidelines");
+		popupController.setGuideline();
+		setPopup();
 	}
-
-	
-	
-	public void setVideoPopup(){
-	popup.setAutoHide(true);
-	//popup.getContent().addAll(borderPane);
-	popup.show(Main.primaryStage);
+	public void setAudioskript(String filename){
+		popup.setAutoHide(true);
+		popupController.setPopupTitleText("Audioskript");
+		popupController.setAudioscript(filename);
+		setPopup();
+		
 	}
-*/
-	public void setPopup() {
+	
+	public void setVideo(String file){
+		popup.setAutoHide(false);
+		popupController.setPopupTitleText("Video");
+		popupController.setVideo(file);
+		setPopup();
+	}
+	
+	private void setPopup() {
+		popup.show(Main.primaryStage);
+		popupController.setGlassBackground((int) popup.getX(),(int) popup.getY());
+	}
+	
+	public Popups() {
+		super();
 		popup = new Popup();
 		System.out.println(this.toString() + " iniz");
 		System.out.println(popup.toString() + " iniz1");
+		FXMLLoader myLoader = null;
 		try {
-			anchorPane = new AnchorPane((AnchorPane)FXMLLoader.load(getClass().getResource("/ru/view/Popup.fxml")));
+			myLoader = new FXMLLoader(getClass().getResource("/ru/view/Popup.fxml"));
+			anchorPane = new AnchorPane((AnchorPane) myLoader.load());
 			popup.getContent().addAll(anchorPane);
 			anchorPane.getStylesheets().add(getClass().getResource("/ru/view/css/Popup.css").toExternalForm());
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		popup.setAutoHide(true);
-		popup.show(Main.primaryStage);
-		popupController.setGlassBackground((int) popup.getX(),(int) popup.getY());
+		popupController = myLoader.getController();
 	}
 
 	

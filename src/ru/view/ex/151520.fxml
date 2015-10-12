@@ -8,15 +8,11 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308"
-	minHeight="300.0" minWidth="-Infinity" prefWidth="835.0"
-	xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
-	fx:controller="ru.controller.VarController">
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="300.0" minWidth="-Infinity" prefWidth="830.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.controller.VarController">
 	<center>
-		<VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308"
-			spacing="10.0" BorderPane.alignment="CENTER">
+		<VBox fx:id="vdolod" spacing="10.0" BorderPane.alignment="CENTER">
 			<children>
-				<TextFlow layoutX="10.0" layoutY="116.0" maxWidth="1.7976931348623157E308">
+				<TextFlow layoutX="10.0" layoutY="116.0">
 					<children>
 						<Label text="1. Seventy-six percent of customers ">
 							<font>
@@ -33,14 +29,12 @@
 								<Font name="Segoe UI" size="15.0" />
 							</font>
 						</Label>
-						<Label layoutX="558.0" layoutY="10.0" text="are not ready"
-							textFill="#a81515">
+						<Label layoutX="558.0" layoutY="10.0" text="are not ready" textFill="#a81515">
 							<font>
 								<Font name="Segoe UI Italic" size="15.0" />
 							</font>
 						</Label>
-						<Label text=" to spend money and buy at least one technology product."
-							wrapText="true">
+						<Label text=" to spend money and buy at least one technology product." wrapText="true">
 							<font>
 								<Font name="Segoe UI" size="15.0" />
 							</font>
@@ -50,10 +44,8 @@
 				<fx:define>
 					<ToggleGroup fx:id="tg1" />
 				</fx:define>
-				<RadioButton mnemonicParsing="false" text="are not ready"
-					toggleGroup="$tg1" />
-				<RadioButton mnemonicParsing="false" text="are ready"
-					toggleGroup="$tg1" />
+				<RadioButton mnemonicParsing="false" selected="true" text="are not ready" toggleGroup="$tg1"/>
+				<RadioButton mnemonicParsing="false" text="are ready" toggleGroup="$tg1"/>
 				<TextFlow layoutX="10.0" layoutY="10.0" maxWidth="1.7976931348623157E308">
 					<children>
 						<Label text="2. The Americans have been queueing up ">
@@ -61,8 +53,7 @@
 								<Font name="Segoe UI" size="15.0" />
 							</font>
 						</Label>
-						<Label text="to buy the electronic devices in a sale"
-							textFill="#a81515">
+						<Label text="to buy the electronic devices in a sale" textFill="#a81515">
 							<font>
 								<Font name="Segoe UI Italic" size="15.0" />
 							</font>
@@ -72,9 +63,7 @@
 								<Font name="Segoe UI" size="15.0" />
 							</font>
 						</Label>
-						<Label layoutX="558.0" layoutY="10.0"
-							text="to get the newest and coolest electronic devices."
-							textFill="#a81515">
+						<Label layoutX="558.0" layoutY="10.0" text="to get the newest and coolest electronic devices." textFill="#a81515">
 							<font>
 								<Font name="Segoe UI Italic" size="15.0" />
 							</font>
@@ -84,11 +73,8 @@
 				<fx:define>
 					<ToggleGroup fx:id="tg2" />
 				</fx:define>
-				<RadioButton mnemonicParsing="false"
-					text="to buy the electronic devices in a sale" toggleGroup="$tg2" />
-				<RadioButton mnemonicParsing="false"
-					text="to get the newest and coolest electronic devices"
-					toggleGroup="$tg2" />
+				<RadioButton mnemonicParsing="false" selected="true" text="to buy the electronic devices in a sale" toggleGroup="$tg2"/>
+				<RadioButton mnemonicParsing="false" text="to get the newest and coolest electronic devices" toggleGroup="$tg2"/>
 				<TextFlow layoutX="10.0" layoutY="39.0" maxWidth="1.7976931348623157E308">
 					<children>
 						<Label text="3. ">
@@ -106,14 +92,12 @@
 								<Font name="Segoe UI" size="15.0" />
 							</font>
 						</Label>
-						<Label layoutX="558.0" layoutY="10.0" text="Tablet computers"
-							textFill="#a81515">
+						<Label layoutX="558.0" layoutY="10.0" text="Tablet computers" textFill="#a81515">
 							<font>
 								<Font name="Segoe UI Italic" size="15.0" />
 							</font>
 						</Label>
-						<Label text=" are the most popular products this year."
-							wrapText="true">
+						<Label text=" are the most popular products this year." wrapText="true">
 							<font>
 								<Font name="Segoe UI" size="15.0" />
 							</font>
@@ -123,10 +107,8 @@
 				<fx:define>
 					<ToggleGroup fx:id="tg3" />
 				</fx:define>
-				<RadioButton mnemonicParsing="false" text="Smartphones"
-					toggleGroup="$tg3" />
-				<RadioButton mnemonicParsing="false" text="Tablet computers"
-					toggleGroup="$tg3" />
+				<RadioButton mnemonicParsing="false" selected="true" text="Smartphones" toggleGroup="$tg3"/>
+				<RadioButton mnemonicParsing="false" text="Tablet computers" toggleGroup="$tg3"/>
 				<TextFlow layoutX="10.0" layoutY="87.0" maxWidth="1.7976931348623157E308">
 					<children>
 						<Label text="4. According to CNET.com ">
@@ -144,14 +126,12 @@
 								<Font name="Segoe UI" size="15.0" />
 							</font>
 						</Label>
-						<Label layoutX="558.0" layoutY="10.0" text="there is no difference"
-							textFill="#a81515">
+						<Label layoutX="558.0" layoutY="10.0" text="there is no difference" textFill="#a81515">
 							<font>
 								<Font name="Segoe UI Italic" size="15.0" />
 							</font>
 						</Label>
-						<Label text=" between the Apple iPad Mini and Google Nexus 7."
-							wrapText="true">
+						<Label text=" between the Apple iPad Mini and Google Nexus 7." wrapText="true">
 							<font>
 								<Font name="Segoe UI" size="15.0" />
 							</font>
@@ -161,14 +141,11 @@
 				<fx:define>
 					<ToggleGroup fx:id="tg4" />
 				</fx:define>
-				<RadioButton mnemonicParsing="false" text="there is difference"
-					toggleGroup="$tg4" />
-				<RadioButton mnemonicParsing="false" text="there is no difference"
-					toggleGroup="$tg4" />
+				<RadioButton mnemonicParsing="false" selected="true" text="there is difference" toggleGroup="$tg4" />
+				<RadioButton mnemonicParsing="false" text="there is no difference" toggleGroup="$tg4" />
 				<TextFlow layoutX="10.0" layoutY="116.0" maxWidth="1.7976931348623157E308">
 					<children>
-						<Label
-							text="5. Elman Chacon, with the electronics store Best Buy, has mentioned ">
+						<Label text="5. Elman Chacon, with the electronics store Best Buy, has mentioned ">
 							<font>
 								<Font name="Segoe UI" size="15.0" />
 							</font>
@@ -183,8 +160,7 @@
 								<Font name="Segoe UI" size="15.0" />
 							</font>
 						</Label>
-						<Label layoutX="558.0" layoutY="10.0" text="some more hot products."
-							textFill="#a81515">
+						<Label layoutX="558.0" layoutY="10.0" text="some more hot products." textFill="#a81515">
 							<font>
 								<Font name="Segoe UI Italic" size="15.0" />
 							</font>
@@ -194,10 +170,8 @@
 				<fx:define>
 					<ToggleGroup fx:id="tg5" />
 				</fx:define>
-				<RadioButton mnemonicParsing="false" text="some more hot products"
-					toggleGroup="$tg5" />
-				<RadioButton mnemonicParsing="false"
-					text="the store matches price for you" toggleGroup="$tg5" />
+				<RadioButton mnemonicParsing="false" selected="true" text="some more hot products" toggleGroup="$tg5" />
+				<RadioButton mnemonicParsing="false" text="the store matches price for you" toggleGroup="$tg5" />
 				<TextFlow layoutX="10.0" layoutY="145.0" maxWidth="1.7976931348623157E308">
 					<children>
 						<Label text="6. For staying competitive Best Buy has ">
@@ -205,8 +179,7 @@
 								<Font name="Segoe UI" size="15.0" />
 							</font>
 						</Label>
-						<Label text="the perfect choice of electronic products"
-							textFill="#a81515">
+						<Label text="the perfect choice of electronic products" textFill="#a81515">
 							<font>
 								<Font name="Segoe UI Italic" size="15.0" />
 							</font>
@@ -216,8 +189,7 @@
 								<Font name="Segoe UI" size="15.0" />
 							</font>
 						</Label>
-						<Label layoutX="558.0" layoutY="10.0" text="the perfect match promise."
-							textFill="#a81515">
+						<Label layoutX="558.0" layoutY="10.0" text="the perfect match promise." textFill="#a81515">
 							<font>
 								<Font name="Segoe UI Italic" size="15.0" />
 							</font>
@@ -227,14 +199,11 @@
 				<fx:define>
 					<ToggleGroup fx:id="tg6" />
 				</fx:define>
-				<RadioButton mnemonicParsing="false"
-					text="the perfect choice of electronic products" toggleGroup="$tg6" />
-				<RadioButton mnemonicParsing="false" text="the perfect match promise"
-					toggleGroup="$tg6" />
+				<RadioButton mnemonicParsing="false" selected="true" text="the perfect choice of electronic products" toggleGroup="$tg6" />
+				<RadioButton mnemonicParsing="false" text="the perfect match promise" toggleGroup="$tg6" />
 				<TextFlow layoutX="10.0" layoutY="174.0" maxWidth="1.7976931348623157E308">
 					<children>
-						<Label
-							text="7. The perfect match promise means if you buy a certain device and you find it cheaper within 30 days ">
+						<Label text="7. The perfect match promise means if you buy a certain device and you find it cheaper within 30 days ">
 							<font>
 								<Font name="Segoe UI" size="15.0" />
 							</font>
@@ -249,8 +218,7 @@
 								<Font name="Segoe UI" size="15.0" />
 							</font>
 						</Label>
-						<Label layoutX="558.0" layoutY="10.0"
-							text="the store matches price for you." textFill="#a81515">
+						<Label layoutX="558.0" layoutY="10.0" text="the store matches price for you." textFill="#a81515">
 							<font>
 								<Font name="Segoe UI Italic" size="15.0" />
 							</font>
@@ -260,11 +228,12 @@
 				<fx:define>
 					<ToggleGroup fx:id="tg7" />
 				</fx:define>
-				<RadioButton mnemonicParsing="false"
-					text="the store takes their product back" toggleGroup="$tg7" />
-				<RadioButton mnemonicParsing="false"
-					text="the store matches price for you" toggleGroup="$tg7" />
+				<RadioButton mnemonicParsing="false" selected="true" text="the store takes their product back" toggleGroup="$tg7" />
+				<RadioButton mnemonicParsing="false" text="the store matches price for you" toggleGroup="$tg7" />
 			</children>
+         <BorderPane.margin>
+            <Insets bottom="23.0" top="20.0" />
+         </BorderPane.margin>
 		</VBox>
 	</center>
 	<padding>

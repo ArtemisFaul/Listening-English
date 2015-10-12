@@ -109,7 +109,7 @@
                <children>
                   <HBox alignment="CENTER" VBox.vgrow="NEVER">
                      <children>
-                        <Text fill="WHITE" text="Listening English">
+                        <Text fill="WHITE" text="English Listening">
                            <font>
                               <Font name="Segoe UI Light" size="70.0" />
                            </font>
@@ -139,7 +139,7 @@
                   </Text>
                </children>
             </HBox>
-            <GridPane BorderPane.alignment="CENTER" VBox.vgrow="ALWAYS">
+            <GridPane hgap="20.0" BorderPane.alignment="CENTER" VBox.vgrow="ALWAYS">
               <columnConstraints>
                 <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                   <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -151,7 +151,7 @@
                <children>
                   <StackPane alignment="BASELINE_CENTER" maxHeight="142.0" maxWidth="252.0" onMouseClicked="#genEnglishLoad" GridPane.halignment="RIGHT">
                      <children>
-                        <ImageView fitHeight="142.0" fitWidth="252.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+                        <ImageView id="mainButton" fitHeight="142.0" fitWidth="252.0" opacity="0.9" pickOnBounds="true" preserveRatio="true" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
                            <image>
                               <Image url="ru/res/image/general_english.jpg" />
                            </image>
@@ -166,13 +166,16 @@
                            </children>
                         </HBox>
                      </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
                      <effect>
                         <DropShadow blurType="GAUSSIAN" />
                      </effect>
                   </StackPane>
                   <StackPane alignment="BOTTOM_CENTER" layoutX="38.0" layoutY="213.0" maxHeight="142.0" maxWidth="252.0" onMouseClicked="#busEnglishLoad" GridPane.columnIndex="2">
                      <children>
-                        <ImageView fitHeight="142.0" fitWidth="252.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+                        <ImageView id="mainButton" fitHeight="142.0" fitWidth="252.0" opacity="0.9" pickOnBounds="true" preserveRatio="true" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
                            <image>
                               <Image url="ru/res/image/business_english.jpg" />
                            </image>
@@ -189,10 +192,13 @@
                      <effect>
                         <DropShadow />
                      </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
                   </StackPane>
                   <StackPane alignment="BOTTOM_CENTER" layoutX="10.0" layoutY="31.0" maxHeight="142.0" maxWidth="252.0" onMouseClicked="#proEnglishLoad" GridPane.columnIndex="1" GridPane.halignment="CENTER">
                      <children>
-                        <ImageView fitHeight="142.0" fitWidth="252.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+                        <ImageView id="mainButton" fitHeight="142.0" fitWidth="252.0" opacity="0.9" pickOnBounds="true" preserveRatio="true" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
                            <image>
                               <Image url="ru/res/image/professional_english.jpg" />
                            </image>
@@ -207,8 +213,11 @@
                         </HBox>
                      </children>
                      <effect>
-                        <DropShadow />
+                        <DropShadow color="#0d0101" />
                      </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
                   </StackPane>
                </children>
             </GridPane>

@@ -12,7 +12,7 @@
 		<type>Audio</type>
 		<exAttachFile>/ru/res/audio/124967.mp3</exAttachFile>
 		<keyAttachFile>/ru/res/audio/180159.mp3</keyAttachFile>
-		<audioscriptFile>/ru/res/text/109970</audioscriptFile>
+		<audioscriptFile>/ru/res/text/109970.html</audioscriptFile>
 	</GenEnglish>
 	<GenEnglish>
 		<id>A2</id>
@@ -26,7 +26,7 @@
 		<type>Audio</type>
 		<exAttachFile>/ru/res/audio/184662.mp3</exAttachFile>
 		<keyAttachFile></keyAttachFile>
-		<audioscriptFile>/ru/res/text/163575</audioscriptFile>
+		<audioscriptFile>/ru/res/text/163575.html</audioscriptFile>
 	</GenEnglish>
 	<GenEnglish>
 		<id>A3</id>
@@ -40,7 +40,7 @@
 		<type>Audio</type>
 		<exAttachFile>/ru/res/audio/186949.mp3</exAttachFile>
 		<keyAttachFile></keyAttachFile>
-		<audioscriptFile>/ru/res/text/210983</audioscriptFile>
+		<audioscriptFile>/ru/res/text/210983.html</audioscriptFile>
 	</GenEnglish>
 	<GenEnglish>
 		<id>A4</id>
@@ -54,7 +54,7 @@
 		<type>Audio</type>
 		<exAttachFile>/ru/res/audio/202971.mp3</exAttachFile>
 		<keyAttachFile></keyAttachFile>
-		<audioscriptFile>/ru/res/text/228304</audioscriptFile>
+		<audioscriptFile>/ru/res/text/228304.html</audioscriptFile>
 	</GenEnglish>
 	<GenEnglish>
 		<id>A5</id>
@@ -68,7 +68,7 @@
 		<type>Audio</type>
 		<exAttachFile>/ru/res/audio/226199.mp3</exAttachFile>
 		<keyAttachFile></keyAttachFile>
-		<audioscriptFile>/ru/res/text/270907</audioscriptFile>
+		<audioscriptFile>/ru/res/text/270907.html</audioscriptFile>
 	</GenEnglish>
 	<GenEnglish>
 		<id>A6</id>
@@ -82,7 +82,7 @@
 		<type>Audio</type>
 		<exAttachFile>/ru/res/audio/288875.mp3</exAttachFile>
 		<keyAttachFile></keyAttachFile>
-		<audioscriptFile>/ru/res/text/308368</audioscriptFile>
+		<audioscriptFile>/ru/res/text/308368.html</audioscriptFile>
 	</GenEnglish>
 	<GenEnglish>
 		<id>A7</id>
@@ -96,7 +96,7 @@
 		<type>Audio</type>
 		<exAttachFile>/ru/res/audio/297021.mp3</exAttachFile>
 		<keyAttachFile></keyAttachFile>
-		<audioscriptFile>/ru/res/text/419703</audioscriptFile>
+		<audioscriptFile>/ru/res/text/419703.html</audioscriptFile>
 	</GenEnglish>
 	<ProEnglish>
 		<id>A8</id>
@@ -110,7 +110,7 @@
 		<type>Audio</type>
 		<exAttachFile>/ru/res/audio/403904.mp3</exAttachFile>
 		<keyAttachFile>/ru/res/audio/427210.mp3</keyAttachFile>
-		<audioscriptFile>/ru/res/text/456231</audioscriptFile>
+		<audioscriptFile>/ru/res/text/456231.html</audioscriptFile>
 	</ProEnglish>
 	<ProEnglish>
 		<id>A9</id>
@@ -124,7 +124,7 @@
 		<type>Video</type>
 		<exAttachFile>/ru/res/video/457918.mp4</exAttachFile>
 		<keyAttachFile></keyAttachFile>
-		<audioscriptFile>/ru/res/text/515297</audioscriptFile>
+		<audioscriptFile>/ru/res/text/515297.html</audioscriptFile>
 	</ProEnglish>
 	<ProEnglish>
 		<id>A10</id>
@@ -138,7 +138,7 @@
 		<type>Video</type>
 		<exAttachFile>/ru/res/video/479397.mp4</exAttachFile>
 		<keyAttachFile></keyAttachFile>
-		<audioscriptFile>/ru/res/text/552828</audioscriptFile>
+		<audioscriptFile>/ru/res/text/552828.html</audioscriptFile>
 	</ProEnglish>
 	<ProEnglish>
 		<id>A11</id>
@@ -152,7 +152,7 @@
 		<type>Audio</type>
 		<exAttachFile>/ru/res/audio/498437.mp3</exAttachFile>
 		<keyAttachFile></keyAttachFile>
-		<audioscriptFile>/ru/res/text/621377</audioscriptFile>
+		<audioscriptFile>/ru/res/text/621377.html</audioscriptFile>
 	</ProEnglish>
 	<ProEnglish>
 		<id>A12</id>
@@ -166,7 +166,7 @@
 		<type>Audio</type>
 		<exAttachFile>/ru/res/audio/513202.mp3</exAttachFile>
 		<keyAttachFile></keyAttachFile>
-		<audioscriptFile>/ru/res/text/700927</audioscriptFile>
+		<audioscriptFile>/ru/res/text/700927.html</audioscriptFile>
 	</ProEnglish>
 	<ProEnglish>
 		<id>A13</id>
@@ -180,7 +180,7 @@
 		<type>Audio</type>
 		<exAttachFile>/ru/res/audio/531659.mp3</exAttachFile>
 		<keyAttachFile></keyAttachFile>
-		<audioscriptFile>/ru/res/text/725672</audioscriptFile>
+		<audioscriptFile>/ru/res/text/725672.html</audioscriptFile>
 	</ProEnglish>
 	<BusEnglish>
 		<id>A14</id>
@@ -194,7 +194,7 @@
 		<type>Audio</type>
 		<exAttachFile>/ru/res/audio/539073.mp3</exAttachFile>
 		<keyAttachFile></keyAttachFile>
-		<audioscriptFile>/ru/res/text/759943</audioscriptFile>
+		<audioscriptFile>/ru/res/text/759943.html</audioscriptFile>
 	</BusEnglish>
 	<BusEnglish>
 		<id>A15</id>
@@ -208,7 +208,7 @@
 		<type>Audio</type>
 		<exAttachFile>/ru/res/audio/688861.mp3</exAttachFile>
 		<keyAttachFile>/ru/res/audio/692816.mp3</keyAttachFile>
-		<audioscriptFile>/ru/res/text/796990</audioscriptFile>
+		<audioscriptFile>/ru/res/text/796990.html</audioscriptFile>
 	</BusEnglish>
 	<BusEnglish>
 		<id>A16</id>
@@ -222,7 +222,7 @@
 		<type>Audio</type>
 		<exAttachFile>/ru/res/audio/597395.mp3</exAttachFile>
 		<keyAttachFile></keyAttachFile>
-		<audioscriptFile>/ru/res/text/823129</audioscriptFile>
+		<audioscriptFile>/ru/res/text/823129.html</audioscriptFile>
 	</BusEnglish>
 	<BusEnglish>
 		<id>A17</id>
@@ -236,7 +236,7 @@
 		<type>Video</type>
 		<exAttachFile>/ru/res/video/602489.mp4</exAttachFile>
 		<keyAttachFile></keyAttachFile>
-		<audioscriptFile>/ru/res/text/880780</audioscriptFile>
+		<audioscriptFile>/ru/res/text/880780.html</audioscriptFile>
 	</BusEnglish>
 	<BusEnglish>
 		<id>A18</id>
@@ -250,7 +250,7 @@
 		<type>Audio</type>
 		<exAttachFile>/ru/res/video/610066.mp4</exAttachFile>
 		<keyAttachFile></keyAttachFile>
-		<audioscriptFile>/ru/res/text/884352</audioscriptFile>
+		<audioscriptFile>/ru/res/text/884352.html</audioscriptFile>
 	</BusEnglish>
 	<BusEnglish>
 		<id>A19</id>
@@ -264,7 +264,7 @@
 		<type>Video</type>
 		<exAttachFile>/ru/res/video/610066.mp4</exAttachFile>
 		<keyAttachFile></keyAttachFile>
-		<audioscriptFile>/ru/res/text/916337</audioscriptFile>
+		<audioscriptFile>/ru/res/text/916337.html</audioscriptFile>
 	</BusEnglish>
 	<BusEnglish>
 		<id>A20</id>
@@ -278,7 +278,7 @@
 		<type>Audio</type>
 		<exAttachFile>/ru/res/audio/612999.mp3</exAttachFile>
 		<keyAttachFile></keyAttachFile>
-		<audioscriptFile>/ru/res/text/934705</audioscriptFile>
+		<audioscriptFile>/ru/res/text/934705.html</audioscriptFile>
 	</BusEnglish>
 	<BusEnglish>
 		<id>A21</id>
@@ -292,6 +292,6 @@
 		<type>Audio</type>
 		<exAttachFile>/ru/res/audio/668916.mp3</exAttachFile>
 		<keyAttachFile></keyAttachFile>
-		<audioscriptFile>/ru/res/text/941997</audioscriptFile>
+		<audioscriptFile>/ru/res/text/941997.html</audioscriptFile>
 	</BusEnglish>
 </Charters>

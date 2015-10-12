@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.BorderPane?>
 
-<BorderPane fx:id="paragBP" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="626.0" prefWidth="840.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.controller.ExerciseListController">
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onKeyReleased="#backButtonKeyboard" prefHeight="626.0" prefWidth="840.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.controller.ExerciseListController">
    <top>
       <AnchorPane fx:id="topELC" BorderPane.alignment="CENTER">
          <children>
