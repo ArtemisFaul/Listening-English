@@ -99,12 +99,11 @@ public class ExerciseController implements Initializable, ControlledScreen {
 	@FXML
 	private void checkButtonClick(){
 		if ((count < 2) & (varController.checkExercise() != true)){
-		message.setText("Попробуйте еще раз. Это " + count+" попытка.");
+		message.setText("Try again.");
 		count++;
 		}else{
-			message.setText("Просмотрите ответ и аудиоскрипт");
 			if (varController.checkExercise()){
-				message.setText("Вы молодец");
+				message.setText("Well done!");
 			}
 			startEaster();
 			viewAudioscriptButton.setVisible(true);
